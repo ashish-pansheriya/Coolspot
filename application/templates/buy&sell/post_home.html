@@ -1,0 +1,52 @@
+
+{% include 'base.html' %}
+{% include 'nav.html' %}
+{% load static %}
+
+
+  <title>{% block title %} Home - Ca$H❤Treat${% endblock %}</title>
+<head>
+
+</head>
+<body>
+
+</body>
+{% block body %}
+
+
+<body style="background:linear-gradient(to top, #040308, #AD4A28, #DD723C, #FC7001, #DCB697, #9BA5AE, #3E5879, #020B1A);">
+
+
+<div class="row mx-auto" style="margin-top: 22px;" >
+
+    {% for posts in post %}
+    <div class="col-md-2 mx-auto">
+        <div class="mx-auto" >
+            <div class="mx-auto" >
+                 <div class="card bg-light mb-5 mx-auto">
+                     <div class="row no-gutters">
+                        <div class="col-md-12" >
+                             <a href="{% url 'post-detail' posts.id %}"><img src="{{ posts.photo.url }}" class="card-img" alt="..."></a>
+                        </div>
+
+                            <div class="col-md-12">
+                                <a class="custom-card" style="color: #212529; text-decoration: none;" href="{% url 'post-detail' posts.id %}">
+                                <div class="card-body">
+                                <h6 class="text-success"><i class="fas fa-tags"></i>{{posts.price}}</h6>
+                                <h6 class="text-info"> {{posts.title}}</h6>
+                          <p class="card-text"><small class="text-muted">{{posts.date_posted|date:"F d, Y"}}</small></p>
+                            </div></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- if last column in row -->
+        {% if forloop.counter|divisibleby:"100" and not forloop.last %}
+        </div><div class="row">
+        {% endif %}
+    {% endfor %}
+</div>
+</body>
+{% endblock %}

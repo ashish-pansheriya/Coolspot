@@ -1,0 +1,38 @@
+
+{% include 'base.html' %}
+{% include 'nav.html' %}
+{% load static %}
+{% load crispy_forms_tags %}
+
+  <title>{% block title %} H O M E {% endblock %}</title>
+
+{% block body %}
+<body class="container-fluid" style="background:linear-gradient(-120deg, #ba0c2f, #ffcd00, #c9c9c9);">
+
+<div class="card" style="width: 20rem;">
+  <img src="{{user.profile.image.url}}" class="card-img-top" alt="image !!">
+
+  <div class="card-body">
+    {% for pro in profile %}
+    {% for banks in bank %}
+    <h5 class="card-title">{{ pro.title }}</h5>
+    <h5 class="card-title">{{ pro.name }}</h5>
+
+
+    <h5 class="card-title">{{ user.username }}</h5>
+    <h5 class="card-title">{{ banks.title }}</h5>
+    <h5 class="card-title">{{ banks.author }}</h5>
+    <p class="card-text">{{ user.email }}</p>
+    {% endfor %}
+    {% endfor %}
+              {% if object.author == user %}
+    <a href="#" class="btn btn-primary">Your Posts</a>
+    {% endif %}
+
+  </div>
+</div>
+
+<h1>{{ user.username }}</h1>
+
+</body>
+{% endblock %}

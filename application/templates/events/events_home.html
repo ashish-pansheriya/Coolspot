@@ -1,0 +1,53 @@
+
+{% include 'base.html' %}
+{% include 'nav.html' %}
+{% load static %}
+
+
+  <title>{% block title %} H O M E {% endblock %}</title>
+
+{% block body %}
+<body style="background:linear-gradient(120deg, #122B40, #446CB3);">
+
+<div class="row mx-auto" style="margin-top: 22px;" >
+
+    {% for posts in post %}
+    <div class="col-md-4">
+        <div class="mx-auto" >
+            <div class="mx-auto" >
+                 <div class="card bg-light mb-5 mx-auto" style="max-width: 940px;"  >
+                     <div class="row no-gutters">
+                        <div class="col-md-12" >
+                             <a href="{% url 'event-post-detail' posts.id %}"><img src="media/{{ posts.image }}" class="card-img" alt="..."></a>
+                        </div>
+                        <div class="col-md-12">
+                            <a class="custom-card" style="color: #212529; text-decoration: none;" href="{% url 'event-post-detail' posts.id %}">
+                            <div class="card-body">
+                                <table class="table table-borderless text-info">
+  <tbody>
+    <tr>
+        <td style="padding:4px; width:20px"><h4 class="text-secondary"><i class="fab fa-fort-awesome-alt"></i></h4></td>
+        <td style="padding:4px; "><h4>{{ posts.title }}</h4></td>
+    </tr>
+    <tr>
+        <td style="padding:4px; width:20px"><h4 class="text-secondary"><i class="far fa-calendar"></i> </h4></td>
+        <td style="padding:4px;">{{ posts.starts }}</td>
+    </tr>
+  </tbody>
+</table>
+
+                            </div></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- if last column in row -->
+        {% if forloop.counter|divisibleby:"6" and not forloop.last %}
+        </div><div class="row">
+        {% endif %}
+    {% endfor %}
+</div>
+</body>
+{% endblock %}

@@ -1,0 +1,8 @@
+container is parcially full width
+container-fluid is full width
+p-4 is all side padding 
+pt-3 pb-3 is top & bottom padding 
+my-3 is margins
+?	.container-sm|md|lg|xl
+
+marge div through class="row" under class="col6:37 AM 4/26/2020"

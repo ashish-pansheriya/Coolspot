@@ -1,0 +1,33 @@
+
+{% include 'base.html' %}
+{% include 'nav.html' %}
+{% load static %}
+
+
+  <title>{% block title %} H O M E {% endblock %}</title>
+
+{% block body %}
+<body class="container-fluid" style="background:linear-gradient(to top, #040308, #AD4A28, #DD723C, #FC7001, #DCB697, #9BA5AE, #3E5879, #020B1A);">
+
+
+{% for posts in post %}
+
+
+      <div class="card-body">
+            <h5> <a class="card-title">{{posts.artist}}</a></h5>
+        <p class="card-text">{{ posts.name }}</p>
+        <p class="card-text">{{ posts.play }}</p>
+        <p class="card-text"><small class="text-muted"></small></p>
+      </div>
+
+
+
+
+
+{% endfor %}
+
+A
+
+
+</body>
+{% endblock %}

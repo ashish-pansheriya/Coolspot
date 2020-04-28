@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+{{context}}
+{% for ab in context %}
+            {{ab.aaaa}}
+            {% endfor %}
+
+<nav class="navbar navbar-expand-lg navbar-light " style="background:linear-gradient(120deg, #185494, #EE1D23, #FAAF18, #FFFFFF);">
+      <a class="navbar-brand" href="{% url 'post-home' %}">Gallery Buy/Sell </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+           <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="{% url 'friend-home' %}">Hire a Friend <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="{% url 'event-home' %}">Events</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          All categories
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Buy & Sell</a>
+          <a class="dropdown-item" href="#">Real Estate</a>
+          <a class="dropdown-item" href="#">Jobs</a>
+          <a class="dropdown-item" href="#">Services</a>
+          <a class="dropdown-item" href="#">Pets</a>
+          <a class="dropdown-item" href="#">Vacation Rentals</a>
+          <a class="dropdown-item" href="#">Community</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Something else here</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Cooming Soon</a>
+      </li>
+      </ul>
+
+
+      <ul class="nav justify-content-end">
+            {% if user.is_authenticated %}
+
+              <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                New Post
+              </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="{% url 'post-create' %}">Add Buy & Sell Post</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="{% url 'friend-post-create' %}">Add Hire a Friend profile </a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="{% url 'event-post-create' %}">Create Event </a>
+                </div>
+
+
+              </li>
+
+
+
+                <li class="nav-item">
+                  <a class="nav-link active" href="{% url 'profile' %}">Profile</a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link active" href="{% url 'logout' %}">Logout</a>
+                </li>
+                    {% else %}
+
+
+
+
+                    <li class="nav-item">
+                  <a class="nav-link active" href="{% url 'register' %}">Register  </a>
+                </li>
+                    <li class="nav-item">
+                  <a class="nav-link disabled" href="#">or</a>
+                </li>
+                    <li class="nav-item">
+                  <a class="nav-link active" href="{% url 'login' %}">Sign In</a>
+                </li>
+                    <li class="nav-item">
+                    <a href="{% url 'register' %}" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Post ad</a>
+                </li>
+                    {% endif %}
+                 </ul>
+
+
+      </div>
+</nav>
+
+
+<div class="card mb-3" style="max-width: 540px;">
+  <div class="row no-gutters">
+    <div class="col-md-16">
+      <img src="{{ object.photo.url }}" class="card-img" alt="...">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h5 class="card-title">{{object.title}}</h5>
+        <h4> <a class="text-success">₹{{object.price}}</a></h4>
+        <p class="card-text">{{ object.content }}</p>
+        <p class="card-text"><small class="text-muted">{{object.date_posted|date:"F d, Y"}}</small></p>
+        <p class="card-text">📍{{ object.location }}</p>
+                  {% if object.author == user %}
+<a class="btn btn-secondary btn-sm mt-1 mb-1" href="{% url 'post-update' object.id %}"> Update</a>
+<a class="btn btn-danger btn-sm mt-1 mb-1" href="{% url 'post-delete' object.id %}"> Delete</a>
+    {% endif %}
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<div class="row mx-auto" style="margin-top: 22px;" >
+
+    {% for posts in post %}
+    <div class="col-md-2 mx-auto">
+        <div class="mx-auto" >
+            <div class="mx-auto" >
+                 <div class="card bg-light mb-5 mx-auto">
+                     <div class="row no-gutters">
+                        <div class="col-md-12" >
+                             <a href="{% url 'post-detail' posts.id %}"><img src="media/{{ posts.photo }}" class="card-img" alt="..."></a>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="card-body">
+                                <h5> <a class="text-success"><i class="fas fa-tags"></i>{{posts.price}}</a></h5>
+                                <h6> <a class="card-title" href="{% url 'post-detail' posts.id %}">{{posts.title}}</a></h6>
+                          <p class="card-text"><small class="text-muted">{{posts.date_posted|date:"F d, Y"}}</small></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- if last column in row -->
+        {% if forloop.counter|divisibleby:"100" and not forloop.last %}
+        </div><div class="row">
+        {% endif %}
+    {% endfor %}
+</div>
+
+
+{% for posts in post %}
+
+
+
+<div class="card bg-light mb-3 mx-auto "  style="max-width: 940px;">
+  <div class="row no-gutters">
+    <div class="col-md-4">
+      <a href="{% url 'friend-post-detail' posts.id %}"><img src="media/{{ posts.photo }}" class="card-img" alt="..."></a>
+    </div>
+    <div class="col-md-8 ">
+      <div class="card-body">
+            <h5> </h5>
+        <h4> <a class="card-title" href="{% url 'friend-post-detail' posts.id %}">{{ posts.name }} </a></h4>
+        <p class="card-text"><small class="text-muted">{{posts.age}}</small></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+{% endfor %}
+
+
+</body>
+</html>
