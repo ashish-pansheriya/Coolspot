@@ -6,7 +6,7 @@ from django.views.generic import ListView, DetailView, CreateView, UpdateView, D
 from django.core.files.storage import FileSystemStorage
 from django.forms import formset_factory
 #from 
-
+# from another comments
 def home(request):
     users = {
         'post': databank.objects.all()
