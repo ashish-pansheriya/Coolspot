@@ -11,7 +11,8 @@ urlpatterns = [
 
 
     path('events', events, name='events'),
-    path('event-home', eventPostListView.as_view(), name='event-home'),
+    path('event-home', eventsearchview.as_view(), name='event-home'),
+    #path('event-home', eventPostListView.as_view(), name='event-home'),
     path('event/<int:pk>/', eventPostDetailView.as_view(), name='event-post-detail'),
     path('event/new/', eventPostCreateView.as_view(), name='event-post-create'),
     path('event/<int:pk>/update/', eventPostUpdateView.as_view(), name='event-post-update'),

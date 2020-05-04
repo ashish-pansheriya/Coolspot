@@ -6,6 +6,49 @@
 </head>
 <body>
 
+
+<div class="input-group mb-1">
+  <input type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="basic-addon2">
+  <div class="input-group-append">
+    <button class="btn btn-outline-secondary" type="button">Button</button>
+  </div>
+</div>
+
+<--
+class Searchview(View):
+    def get(self, request, *args, **kwargs):
+        queryset = friends.objects.all().order_by('-date_posted') # ordering latest first
+        query = request.GET.get('q')
+        gender = request.GET.get('gender')
+        if gender == "Male":
+            queryset2=queryset.filter(gender = gender)
+            queryset = queryset.filter(
+                Q(address__icontains=query) |
+                Q(gender__icontains=gender)
+            ).distinct()
+            print(queryset2)
+        context = {
+            'queryset': queryset
+        }
+        return render(request, 'friends/friends_home.html', context )
+-->
+<form  method="get" enctype="multipart/form-data">
+     {% csrf_token %}
+    <input type="checkbox" name="and" value="AND"> Choice and<br>
+    <input type="checkbox" name="or" value="OR"> Choice OR<br>
+
+          {{ skill_filter }}
+    <button  type="submit" class="btn btn-info" type="button">Go!</button>
+</form>
+
+    <input type="checkbox" name="todelete" value="{{ item.id }}"/>a
+    <input type="checkbox" name="todelete" value="{{ item.id }}"/>b
+
+<form action="{% url 'friend-home' %}" method='GET'>
+  <input type='text' name='q' value='{{ request.GET.q }}' placeholder="Enter city or name">
+  <input class="btn btn-light search-btn" type='submit' value="Search Profile" placeholder="Enter city or name">
+</form>
+
 {{context}}
 {% for ab in context %}
             {{ab.aaaa}}

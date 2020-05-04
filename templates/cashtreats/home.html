@@ -20,9 +20,9 @@
         <div class="carousel slide" data-ride="carousel" id="carousel-1">
             <div class="carousel-inner" role="listbox" style="font-family: 'Architects Daughter', cursive;">
                 <div class="carousel-item">
-                    <div class="jumbotron pulse animated hero-nature carousel-hero" style="background-image: url(&quot;/static/assets/img/hire.jpg&quot;);">
-                        <h1 class="hero-title">Hire a friends</h1>
-                        <p class="hero-subtitle"><br>THE GOAL OF ONLINE DATING IS TO GET OFFLINE AS QUICKLY AS POSSIBLE<br></p>
+                    <div class="jumbotron pulse animated hero-nature carousel-hero" style=" background-image: url(&quot;/static/assets/img/hire2.jpg&quot;);">
+                        <h1 class="hero-title">The Power Of Events Around Us </h1>
+                        <p class="hero-subtitle"><br>We're Really Excited About The Upcoming Events.<br></p>
                         <p></p>
                     </div>
                 </div>
@@ -50,16 +50,56 @@
                 </ol>
         </div>
     </section>
+<br>
 
+    <form autocomplete="off" id="search_form" method="post" action="{% url 'friend-home' %}">
+                <input type="text" id="q" placeholder="Example: Mumbai, Maharashtra" name="q" />
+                <input type="submit" class="search_but" value="search"/>
 
-    <div class="search-container"><input type="text" class="search-input" name="search-bar" placeholder="Search..."><button class="btn btn-light search-btn" type="button"> <i class="fa fa-search"></i></button></div>
+                <div class="clearfix"></div>
+                <div id="search_type">
+                    <label for="-1"><input checked="checked" type="radio" value="-1" id="-1" name="gender"/> All friends </label>
+                    <label for="male"><input type="radio" value="0" id="male" name="gender"/> Male friends </label>
+                    <label for="female"><input type="radio" value="1" id="female" name="gender"/> Female friends</label>
 
-<form class="search">
-    <input type="text" class="search-input" name="q" value="{{ request.GET.q }}" placeholder="Search...">
-    <input type="submit" class="searchsubmit">
+                    <div class="clearfix"></div>
+                </div>
+                <input type="hidden" id="crtLoc" value="MTguOTc1LDcyLjgyNTgsSU4=">
+                <input type="hidden" id="coords" name="coords" value="">
+                <input type="hidden" id="location_id" />
+            </form>
+
+<div class="container mb-6">
+    <div class="input-group mb-3">
+  <input type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="basic-addon2">
+
+  <div class="input-group-append">
+    <span class="input-group-text" id="basic-addon2">@example.com</span>
+  </div>
+
+</div><div id="search_type">
+                    <label for="-1"><input checked="checked" type="radio" value="-1" id="-1" name="gender"/> All friends </label>
+                    <label for="male"><input type="radio" value="0" id="male" name="gender"/> Male friends </label>
+                    <label for="female"><input type="radio" value="1" id="female" name="gender"/> Female friends</label>
+
+                    <div class="clearfix"></div>
+                </div>
+</div>
+<form method='GET'>
+  <input type='text' name='q' value='{{ request.GET.q }}' placeholder="Enter city or name">
+  <input class="btn btn-light search-btn" type='submit' value="Search Profile" placeholder="Enter city or name">
 </form>
 
+<h1>Search Results</h1>
+<ul>
+  {% for posts in queryset %}
+    {% endfor %}
+    <li>
+      {{ posts.name }} {{ posts.address }}
+    </li>
 
+
+</ul>
 
     <div class="projects-clean">
         <div class="container">

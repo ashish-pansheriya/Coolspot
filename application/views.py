@@ -2,11 +2,13 @@ from django.shortcuts import render,redirect
 from django.http import HttpResponse
 from .models import databank
 from django.contrib.auth.mixins import LoginRequiredMixin, UserPassesTestMixin
-from django.views.generic import ListView, DetailView, CreateView, UpdateView, DeleteView
+from django.views.generic import ListView, DetailView, CreateView, UpdateView, DeleteView, View
 from django.core.files.storage import FileSystemStorage
 from django.forms import formset_factory
-#from 
-# from another comments
+from django.db.models import Q
+from django.core.paginator import Paginator, EmptyPage, PageNotAnInteger
+
+
 def home(request):
     users = {
         'post': databank.objects.all()
@@ -22,6 +24,32 @@ class PostListView(ListView):
     context_object_name = 'post' #it takes object in post for
     ordering = ['-date_posted']
 
+BLOG_POST_PER_PAGE = 12
+class postsearchview(View):
+
+    def get(self, request, *args, **kwargs):
+        queryset=databank.objects.all().order_by('-date_posted')
+        query = request.GET.get('q')
+        if query:
+            queryset=queryset.filter(
+                Q(title__icontains=query) |
+                Q(location__icontains=query) |
+                Q(category__icontains=query)
+            ).distinct()
+
+        page = request.GET.get('page', 1)
+        blog_posts_paginator = Paginator(queryset, BLOG_POST_PER_PAGE)
+        try:
+            queryset = blog_posts_paginator.page(page)
+        except PageNotAnInteger:
+            queryset = blog_posts_paginator.page(BLOG_POST_PER_PAGE)
+        except EmptyPage:
+            queryset = blog_posts_paginator.page(blog_posts_paginator.num_pages)
+
+        context = {
+            'queryset':queryset
+        }
+        return render(request, 'buy&sell/post_home.html', context)
 
 class PostDetailView(DetailView):
     model = databank

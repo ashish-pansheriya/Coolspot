@@ -71,7 +71,7 @@ ROOT_URLCONF = 'website.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': ['static'],
+        'DIRS': [BASE_DIR + '/templates/', BASE_DIR + '/static/'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -173,3 +173,4 @@ SITE_ID = 1
 # pip install django-crispy-forms CRISPY_TEMPLATE_PACK = 'bootstrap4' {% load crispy_forms_tags %} {{ form|crispy }}
 # https://www.youtube.com/watch?v=FdVuKt_iuSI&list=PL-osiE80TeTtoQCKZ03TU5fNfx2UY6U4p&index=8
 #https://schier.co/blog/html-templating-output-a-grid-in-a-single-loop (grid for html templates)
+# https://www.youtube.com/watch?v=YlMxfqcw77s (pagination referance)

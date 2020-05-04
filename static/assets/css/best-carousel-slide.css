@@ -35,36 +35,3 @@ p.hero-subtitle {
 .plat {
   border-radius: 0px;
 }
-
-.btn-primary.focus, .btn-primary:focus {
-  box-shadow: 0 0 0 0 #048f83!important;
-}
-
-.btn-primary:hover {
-  color: #fff;
-  background-color: #016090;
-  border-color: #016090;
-}
-
-.btn.btn-primary {
-  background-color: #048f83!important;
-  border-color: #048f83!important;
-}
-
-.btn-primary.focus, .btn-primary:focus {
-  box-shadow: 0 0 0 .2rem rgba(0,123,255,.5);
-}
-
-* {
-  /*box-sizing: inherit;*/
-}
-
-*:before, *:after {
-  /*box-sizing: inherit;*/
-}
-
-span {
-  font-style: inherit;
-  font-weight: inherit;
-}
-

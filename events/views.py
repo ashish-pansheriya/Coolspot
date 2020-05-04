@@ -2,10 +2,11 @@ from django.shortcuts import render
 from django.http import HttpResponse
 from .models import *
 from django.contrib.auth.mixins import LoginRequiredMixin, UserPassesTestMixin
-from django.views.generic import ListView, DetailView, CreateView, UpdateView, DeleteView
+from django.views.generic import ListView, DetailView, CreateView, UpdateView, DeleteView,View
 from django.core.files.storage import FileSystemStorage
 from django.forms import formset_factory
-
+from django.db.models import Q
+from django.core.paginator import Paginator, EmptyPage, PageNotAnInteger
 
 ######
 class eventPostListView(ListView):
@@ -13,6 +14,34 @@ class eventPostListView(ListView):
     template_name = 'events/events_home.html'
     context_object_name = 'post'  # it takes object in post for
     ordering = ['-date_posted']
+
+
+BLOG_POST_PER_PAGE = 6
+class eventsearchview(View):
+
+    def get(self,request,*args,**kwargs):
+        queryset=events.objects.all().order_by('-date_posted')
+        query = request.GET.get('q')
+        if query:
+            queryset = queryset.filter(
+                Q(location__icontains=query) |
+                Q(title__icontains=query) |
+                Q(types__icontains=query) |
+                Q(topic__icontains=query)
+            ).distinct()
+
+        page = request.GET.get('page', 1)
+        blog_posts_paginator = Paginator(queryset, BLOG_POST_PER_PAGE)
+        try:
+            queryset = blog_posts_paginator.page(page)
+        except PageNotAnInteger:
+            queryset = blog_posts_paginator.page(BLOG_POST_PER_PAGE)
+        except EmptyPage:
+            queryset = blog_posts_paginator.page(blog_posts_paginator.num_pages)
+        context = {
+            'queryset':queryset
+        }
+        return render(request, 'events/events_home.html', context )
 
 
 class eventPostDetailView(DetailView):
@@ -60,5 +89,4 @@ class eventPostDeleteView(LoginRequiredMixin, UserPassesTestMixin, DeleteView): 
         return False
 
 
-def events(request):
-    return HttpResponse('Events Page')
+

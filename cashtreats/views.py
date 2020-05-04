@@ -3,6 +3,7 @@ from django.contrib.auth.decorators import login_required
 from django.shortcuts import redirect
 from .models import cashtreats
 from application.models import databank
+from friends.models import friends
 from rest_framework import viewsets
 from .serializers import rest
 
@@ -13,8 +14,11 @@ class restframe(viewsets.ModelViewSet):
 
 
 def home(request):
-    post = databank.objects.all()
-    return render(request, 'cashtreats/home.html', {'post':post})
+    if request.GET.get('q'):
+        q = request.GET.get('q')
+        data = friends.objects.filter(address__icontains=q)
+
+    return render(request, 'cashtreats/home.html', )
 
 
 #

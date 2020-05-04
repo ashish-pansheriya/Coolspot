@@ -5,7 +5,7 @@ from .forms import UserRegisterForm
 from django.contrib.auth.decorators import login_required
 from application.models import databank
 from friends.models import friends
-
+from events.models import events
 
 def register(request):
     if request.method == 'POST':
@@ -23,5 +23,5 @@ def register(request):
 def profile(request):
     bank = databank.objects.all()
     profile = friends.objects.all()
-
-    return render(request, 'users/profile.html',  {'profile': profile, 'bank':bank})
+    eva = events.objects.all()
+    return render(request, 'users/profile.html',  {'profile': profile, 'bank':bank}, {'eva':eva})

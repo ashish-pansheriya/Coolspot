@@ -3,10 +3,12 @@ from django.http import HttpResponse
 from .models import friends
 from django.views.generic.edit import FormView
 from django.contrib.auth.mixins import LoginRequiredMixin, UserPassesTestMixin
-from django.views.generic import ListView, DetailView, CreateView, UpdateView, DeleteView
+from django.views.generic import ListView, DetailView, CreateView, UpdateView, DeleteView, View
 from django.core.files.storage import FileSystemStorage
 from django.forms import formset_factory
 #from .filters import friendsFilter
+from django.db.models import Q
+from django.core.paginator import Paginator, EmptyPage, PageNotAnInteger
 
 def filter(request):
 
@@ -22,6 +24,45 @@ class friendPostListView(ListView):
     template_name = 'friends/friends_home.html'
     context_object_name = 'post'  # it takes object in post for
     ordering = ['-date_posted']
+
+
+BLOG_POST_PER_PAGE = 8
+
+class Searchview(View):
+
+    def get(self, request, *args, **kwargs):
+        queryset = friends.objects.all().order_by('-date_posted') # ordering latest first
+        query = request.GET.get('q')
+        queryradio = request.GET.get('gender')
+        alll = request.GET.get('all')
+        if query:
+            queryset = queryset.filter(Q(address__icontains=query)).distinct()
+        if queryradio:
+            queryset = queryset.filter(
+                Q(gender__startswith=queryradio)
+            ).distinct()
+        if alll:
+            queryset=queryset.filter(
+                Q(gender__icontains=alll)
+            ).distinct()
+
+
+        page = request.GET.get('page', 1)
+        blog_posts_paginator = Paginator(queryset, BLOG_POST_PER_PAGE)
+        try:
+            queryset = blog_posts_paginator.page(page)
+        except PageNotAnInteger:
+            queryset = blog_posts_paginator.page(BLOG_POST_PER_PAGE)
+        except EmptyPage:
+            queryset = blog_posts_paginator.page(blog_posts_paginator.num_pages)
+
+        context = {
+            'queryset': queryset
+        }
+        return render(request, 'friends/friends_home.html', context )
+
+#search_result.html
+
 
 
 class friendPostDetailView(DetailView):
