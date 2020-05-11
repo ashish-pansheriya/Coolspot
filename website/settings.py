@@ -53,8 +53,14 @@ INSTALLED_APPS = [
     # Providers
     'allauth.socialaccount.providers.facebook',
     'allauth.socialaccount.providers.google',
+    # Working with Images
+    'imagekit',
+
+
 
 ]
+
+
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
@@ -174,3 +180,4 @@ SITE_ID = 1
 # https://www.youtube.com/watch?v=FdVuKt_iuSI&list=PL-osiE80TeTtoQCKZ03TU5fNfx2UY6U4p&index=8
 #https://schier.co/blog/html-templating-output-a-grid-in-a-single-loop (grid for html templates)
 # https://www.youtube.com/watch?v=YlMxfqcw77s (pagination referance)
+# https://www.w3schools.com/css/css3_object-fit.asp (style="width: 100%; height: 12vw; object-fit: cover;) [ image alignment ]

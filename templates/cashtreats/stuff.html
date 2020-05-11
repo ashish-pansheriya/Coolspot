@@ -1,11 +1,42 @@
 <!DOCTYPE html>
-<html lang="en">
+<!--html-- lang="en">
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
 </head>
 <body>
 
+
+      <div class="col-6">
+        {{ formv.name|as_crispy_field }}
+      </div>
+
+<a class="text-dark mx-2 mx-lg-0 ml-lg-3" href="#"><i class="fa fa-facebook-square fa-2x"></i></a>
+<a class="text-dark mx-2 mx-lg-0 ml-lg-3" href="#"><i class="fa fa-diamond fa-2x"></i></a>
+
+<form class="d-flex justify-content-center justify-content-lg-end">
+                            <div class="form-group w-75">
+                                <div class="input-group"><input class="form-control" type="text" required="" placeholder="Your email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,15}$" inputmode="email">
+                                    <div class="input-group-append"><button class="btn btn-dark" type="submit">Go!</button></div>
+                                </div>
+                            </div>
+                        </form>
+
+
+ <img src="{% static 'assets/img/ashishtie.jpg' %}" style="width:130px; height:100px" class="rounded mx-auto d-block" alt="...">
+<div class="cover">
+  <div class="hi">This is fully responsive & mobile friendly YouTube video background scaled with 16/9 aspect ratio. Actually bunch of videos - js loads randomly 1 of 4 with different start/end times, then it loops through all the vids.<br><br> Click <span>here</span> to <em>un</em>mute & <span>here</span> to see another vid (<em>0</em> of <em>0</em>). Check all of them! They're quite awesome. ;]</div>
+</div>
+	<div class="tv">
+		  <div class="screen mute" id="tv"></div>
+	</div>
+
+
+    <div class="example-box">
+        <div class="background-shapes"></div>
+        <h1><strong>&nbsp;create &amp; organize your events for FREE</strong><br></h1>
+        <p>See what's happening creative in your area</p><button class="btn btn-link border-pretty" type="button">Events&nbsp;<i class="icon ion-android-arrow-forward"></i></button>
+    </div>
 
 <div class="input-group mb-1">
   <input type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="basic-addon2">
@@ -31,18 +62,8 @@ class Searchview(View):
             'queryset': queryset
         }
         return render(request, 'friends/friends_home.html', context )
--->
-<form  method="get" enctype="multipart/form-data">
-     {% csrf_token %}
-    <input type="checkbox" name="and" value="AND"> Choice and<br>
-    <input type="checkbox" name="or" value="OR"> Choice OR<br>
+>
 
-          {{ skill_filter }}
-    <button  type="submit" class="btn btn-info" type="button">Go!</button>
-</form>
-
-    <input type="checkbox" name="todelete" value="{{ item.id }}"/>a
-    <input type="checkbox" name="todelete" value="{{ item.id }}"/>b
 
 <form action="{% url 'friend-home' %}" method='GET'>
   <input type='text' name='q' value='{{ request.GET.q }}' placeholder="Enter city or name">
@@ -187,7 +208,7 @@ class Searchview(View):
             </div>
         </div>
     </div>
-    <!-- if last column in row -->
+    < if last column in row >
         {% if forloop.counter|divisibleby:"100" and not forloop.last %}
         </div><div class="row">
         {% endif %}
@@ -220,4 +241,4 @@ class Searchview(View):
 
 
 </body>
-</html>
+</html-->

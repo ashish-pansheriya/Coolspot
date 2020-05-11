@@ -58,7 +58,7 @@ class PostDetailView(DetailView):
 
 class PostCreateView(LoginRequiredMixin, CreateView ):
     model = databank
-    fields = ['title', 'category', 'content', 'price', 'location', 'contact', 'email', 'photo']
+    fields = ['title', 'category', 'content', 'price', 'location', 'contact','owner', 'email', 'photo']
     template_name = 'buy&sell/post_form.html'
 
     def form_valid(self, form):
@@ -72,7 +72,7 @@ class PostCreateView(LoginRequiredMixin, CreateView ):
 
 class PostUpdateView(LoginRequiredMixin, UserPassesTestMixin, UpdateView ): # prevent from unauthorised update
     model = databank
-    fields = ['title', 'price', 'content', 'location', 'photo']
+    fields = ['title', 'category', 'content', 'price', 'location', 'contact','owner', 'email', 'photo']
     template_name = 'buy&sell/post_form.html'
 
     def form_valid(self, form):

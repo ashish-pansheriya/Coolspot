@@ -11,11 +11,13 @@ from rest_framework import routers
 
 router = routers.DefaultRouter()
 router.register('test', restframe)
-
+services
 
 urlpatterns = [
-
-
+    path('services', services, name='services'),
+    path('policy', policy, name='privacy-policy'),
+    path('about', about, name='about-us'),
+    path('terms', terms, name='terms-conditions'),
     path('', home, name='home'),
     path('best', include(router.urls)),
    # path('upload/<int:user_id>', upload, name='upload')

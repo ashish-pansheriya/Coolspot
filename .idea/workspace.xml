@@ -1,99 +1,66 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/friends/models.py" line="72" />
+    <bookmark url="file://$PROJECT_DIR$/friends/models.py" line="73" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="32adf632-2090-4ae2-a049-56cbd9560214" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/static/assets/css/Check-Out-Page-V100.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/css/Search-Field-With-Icon.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/img/top-view-photo-of-people-near-wooden-table-3183150.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/cashtreats/blog_post_pagination.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/users/register.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/css/Background-motion1-1.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/css/Background-motion1.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/js/jquery-3.1.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/js/jquery-file-upload/jquery.fileupload.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/js/jquery-file-upload/jquery.iframe-transport.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/js/jquery-file-upload/vendor/jquery.ui.widget.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/js/progress-bar-upload.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/cashtreats/about.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/cashtreats/footer-sort.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/cashtreats/footer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/cashtreats/policy.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/cashtreats/services.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/cashtreats/terms.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/friends/modelform.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/vid.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/static/assets/bootstrap/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets/bootstrap/css/bootstrap.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/static/assets/bootstrap/js/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets/bootstrap/js/bootstrap.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/static/assets/css/Check-Out-Page-V100.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/static/assets/css/Projects-Clean.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets/css/Projects-Clean.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/static/assets/css/Projects-Horizontal.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets/css/Projects-Horizontal.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/static/assets/css/Search-Field-With-Icon.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/static/assets/css/Team-Boxed.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets/css/Team-Boxed.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/static/assets/css/Team-Clean.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets/css/Team-Clean.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/static/assets/css/best-carousel-slide.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets/css/best-carousel-slide.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/static/assets/fonts/FontAwesome.otf" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets/fonts/FontAwesome.otf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/static/assets/fonts/font-awesome.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets/fonts/font-awesome.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/static/assets/fonts/fontawesome-webfont.eot" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets/fonts/fontawesome-webfont.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/static/assets/fonts/fontawesome-webfont.svg" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets/fonts/fontawesome-webfont.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/static/assets/fonts/fontawesome-webfont.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets/fonts/fontawesome-webfont.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/static/assets/fonts/fontawesome-webfont.woff" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets/fonts/fontawesome-webfont.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/static/assets/fonts/fontawesome-webfont.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets/fonts/fontawesome-webfont.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/static/assets/fonts/ionicons.eot" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets/fonts/ionicons.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/static/assets/fonts/ionicons.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets/fonts/ionicons.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/static/assets/fonts/ionicons.svg" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets/fonts/ionicons.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/static/assets/fonts/ionicons.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets/fonts/ionicons.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/static/assets/fonts/ionicons.woff" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets/fonts/ionicons.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/static/assets/img/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets/img/1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/static/assets/img/2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets/img/2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/static/assets/img/3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets/img/3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/static/assets/img/avatars/avatar.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets/img/avatars/avatar.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/static/assets/img/crowd-dances.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets/img/crowd-dances.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/static/assets/img/event.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets/img/event.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/static/assets/img/hire.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/static/assets/img/nature/image1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets/img/nature/image1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/static/assets/img/nature/image2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets/img/nature/image2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/static/assets/img/nature/image3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets/img/nature/image3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/static/assets/img/nature/image4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets/img/nature/image4.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/static/assets/img/nature/image5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets/img/nature/image5.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/static/assets/img/nature/image6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets/img/nature/image6.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/static/assets/img/products/l-7764272-anouk-original-imafheaggvz6ck5u.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets/img/products/l-7764272-anouk-original-imafheaggvz6ck5u.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/static/assets/img/products/m-tanabana14831-biba-original-imafgycrj98zjtds.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets/img/products/m-tanabana14831-biba-original-imafgycrj98zjtds.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/static/assets/img/products/s-ttj6002188-tokyo-talkies-original-imaf8bvy9p4sggzp.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets/img/products/s-ttj6002188-tokyo-talkies-original-imaf8bvy9p4sggzp.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/static/assets/img/tech/image4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets/img/tech/image4.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/static/assets/img/tech/image6.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets/img/tech/image6.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/static/assets/img/tech/image7.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets/img/tech/image7.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/static/assets/img/top-view-photo-of-people-near-wooden-table-3183150.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/static/assets/js/bs-init.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets/js/bs-init.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/static/assets/js/jquery.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets/js/jquery.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/static/assets/js/theme.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets/js/theme.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/static/assets/learning bootstrap.txt" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets/learning bootstrap.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/static/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/static/register.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/templates/buy&amp;sell/post_confirm_delete.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/buy&amp;sell/post_confirm_delete.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/templates/buy&amp;sell/post_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/buy&amp;sell/post_detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/templates/buy&amp;sell/post_form.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/buy&amp;sell/post_form.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/templates/buy&amp;sell/post_home.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/buy&amp;sell/post_home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/templates/cashtreats/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/cashtreats/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/templates/cashtreats/stuff.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/cashtreats/stuff.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/templates/cashtreats/upload.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/cashtreats/upload.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/templates/events/events_home.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/events/events_home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/templates/events/events_post_confirm_delete.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/events/events_post_confirm_delete.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/templates/events/events_post_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/events/events_post_detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/templates/events/events_post_form.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/events/events_post_form.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/templates/friends/friends_home.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/friends/friends_home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/templates/friends/friends_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/friends/friends_list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/templates/friends/friends_post_confirm_delete.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/friends/friends_post_confirm_delete.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/templates/friends/friends_post_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/friends/friends_post_detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/templates/friends/friends_post_form.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/friends/friends_post_form.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/templates/friends/new.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/friends/new.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/templates/nav.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/nav.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/templates/users/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/users/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/templates/users/logout.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/users/logout.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/templates/users/password_reset.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/users/password_reset.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/templates/users/password_reset_complete.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/users/password_reset_complete.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/templates/users/password_reset_confirm.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/users/password_reset_confirm.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/templates/users/password_reset_done.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/users/password_reset_done.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/templates/users/profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/users/profile.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/templates/users/register.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/application/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/application/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/application/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cashtreats/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/cashtreats/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cashtreats/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/cashtreats/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/events/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/events/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/events/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/events/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/friends/filters.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/friends/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/friends/admin.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/friends/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/friends/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/friends/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/friends/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/friends/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/friends/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/css/Check-Out-Page-V100.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/css/Projects-Clean.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/css/Projects-Horizontal.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/css/Search-Field-With-Icon.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/css/Team-Boxed.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/css/Team-Clean.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/css/best-carousel-slide.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets/css/best-carousel-slide.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/img/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/img/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/img/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/img/crowd-dances.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets/img/crowd-dances.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/img/event.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/img/products/l-7764272-anouk-original-imafheaggvz6ck5u.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/img/products/m-tanabana14831-biba-original-imafgycrj98zjtds.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/img/products/s-ttj6002188-tokyo-talkies-original-imaf8bvy9p4sggzp.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/img/top-view-photo-of-people-near-wooden-table-3183150.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/register.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/buy&amp;sell/post_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/buy&amp;sell/post_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/buy&amp;sell/post_form.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/buy&amp;sell/post_form.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/buy&amp;sell/post_home.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/buy&amp;sell/post_home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/cashtreats/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/cashtreats/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/cashtreats/stuff.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/cashtreats/stuff.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/events/events_home.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/events/events_home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/events/events_post_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/events/events_post_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/events/events_post_form.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/events/events_post_form.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/friends/friends_home.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/friends/friends_home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/friends/friends_post_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/friends/friends_post_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/friends/friends_post_form.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/friends/friends_post_form.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/friends/new.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/friends/new.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/users/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/users/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/users/profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/users/profile.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/users/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/website/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/website/settings.py" afterDir="false" />
     </list>
@@ -109,31 +76,111 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cashtreats/views.py">
+        <entry file="file://$PROJECT_DIR$/friends/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="277">
-              <caret line="20" column="51" selection-start-line="20" selection-start-column="51" selection-end-line="20" selection-end-column="51" />
+            <state relative-caret-position="221">
+              <caret line="13" column="3" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
               <folding>
-                <element signature="e#0#35#0" expanded="true" />
+                <element signature="e#0#32#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/base.html">
+        <entry file="file://$PROJECT_DIR$/templates/friends/friends_post_form.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-454">
-              <caret line="6" column="16" lean-forward="true" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="59" />
+            <state relative-caret-position="85">
+              <caret line="5" selection-start-line="5" selection-end-line="7" selection-end-column="7" />
+              <folding>
+                <element signature="n#style#0;n#body#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#body#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/events/events_post_form.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="39" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
+              <folding>
+                <element signature="n#style#0;n#body#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#body#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/buy&amp;sell/post_form.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="38" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
+              <folding>
+                <element signature="n#style#0;n#body#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#body#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/cashtreats/home.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="52" column="72" selection-start-line="52" selection-start-column="72" selection-end-line="52" selection-end-column="72" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#0;n#div#0;n#body#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h3#0;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h2#0;n#div#0;n#div#1;n#div#0;n#body#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h2#0;n#div#2;n#div#0;n#body#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/events/events_post_detail.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="2" lean-forward="true" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
+              <folding>
+                <element signature="n#style#0;n#body#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#body#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/templates/friends/friends_post_detail.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="17" column="33" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
+              <folding>
+                <element signature="n#style#0;n#body#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#body#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#td#1;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#body#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#table#0;n#div#0;n#div#1;n#div#0;n#body#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#1;n#div#0;n#body#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#td#1;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#1;n#div#0;n#body#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#td#1;n#tr#2;n#tbody#0;n#table#0;n#div#0;n#div#1;n#div#0;n#body#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#td#1;n#tr#4;n#tbody#0;n#table#0;n#div#0;n#div#1;n#div#0;n#body#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/friends/friends_home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1113">
-              <caret line="81" lean-forward="true" selection-start-line="81" selection-end-line="81" />
+            <state relative-caret-position="187">
+              <caret line="39" column="109" selection-start-line="39" selection-start-column="109" selection-end-line="39" selection-end-column="109" />
               <folding>
                 <element signature="n#style#0;n#body#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#form#0;n#body#0;n#!!top" expanded="true" />
@@ -143,7 +190,31 @@
                 <element signature="n#style#0;n#input#0;n#div#1;n#form#0;n#body#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#input#1;n#div#1;n#form#0;n#body#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#input#2;n#div#1;n#form#0;n#body#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#body#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/friends/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="89" column="52" selection-start-line="89" selection-start-column="52" selection-end-line="89" selection-end-column="52" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/friends/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-22">
+              <caret line="132" column="52" selection-start-line="132" selection-start-column="52" selection-end-line="132" selection-end-column="52" />
+              <folding>
+                <element signature="e#0#35#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -163,6 +234,12 @@
     <findStrings>
       <find>FileFieldView</find>
       <find>placeholder</find>
+      <find>rentafriend</find>
+      <find>https</find>
+      <find>.com</find>
+      <find>h1</find>
+      <find>friendPostCreateView</find>
+      <find>friendPostUpdateView</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -172,39 +249,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/application/templates/friends/new.html" />
-        <option value="$PROJECT_DIR$/application/admin.py" />
-        <option value="$PROJECT_DIR$/application/templates/post_detail.html" />
-        <option value="$PROJECT_DIR$/friends/admin.py" />
-        <option value="$PROJECT_DIR$/events/admin.py" />
-        <option value="$PROJECT_DIR$/application/templates/events/events_post_confirm_delete.html" />
-        <option value="$PROJECT_DIR$/application/templates/users/profile.html" />
-        <option value="$PROJECT_DIR$/application/templates/home.html" />
-        <option value="$PROJECT_DIR$/application/templates/base.html" />
-        <option value="$PROJECT_DIR$/application/templates/post_home.html" />
-        <option value="$PROJECT_DIR$/application/templates/upload.html" />
-        <option value="$PROJECT_DIR$/application/templates/cashtreats/upload.html" />
-        <option value="$PROJECT_DIR$/cashtreats/admin.py" />
-        <option value="$PROJECT_DIR$/cashtreats/models.py" />
-        <option value="$PROJECT_DIR$/cashtreats/urls.py" />
-        <option value="$PROJECT_DIR$/cashtreats/serializers.py" />
-        <option value="$PROJECT_DIR$/website/urls.py" />
-        <option value="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/auth/views.py" />
-        <option value="$PROJECT_DIR$/application/templates/friends/friends_post_form.html" />
-        <option value="$PROJECT_DIR$/events/models.py" />
-        <option value="$PROJECT_DIR$/application/models.py" />
-        <option value="$PROJECT_DIR$/application/templates/buy&amp;sell/post_detail.html" />
-        <option value="$PROJECT_DIR$/application/templates/events/events_post_detail.html" />
-        <option value="$PROJECT_DIR$/friends/filters.py" />
-        <option value="$PROJECT_DIR$/users/models.py" />
-        <option value="$PROJECT_DIR$/cashtreats/views.py" />
-        <option value="$PROJECT_DIR$/friends/urls.py" />
-        <option value="$PROJECT_DIR$/application/templates/friends/search_result.html" />
-        <option value="$PROJECT_DIR$/friends/models.py" />
-        <option value="$PROJECT_DIR$/application/templates/cashtreats/stuff.html" />
-        <option value="$PROJECT_DIR$/application/templates/nav.html" />
-        <option value="$PROJECT_DIR$/application/static/assets/css/Search-Field-With-Icon.css" />
-        <option value="$PROJECT_DIR$/application/static/assets/css/Check-Out-Page-V100.css" />
         <option value="$PROJECT_DIR$/application/static/assets/css/best-carousel-slide.css" />
         <option value="$PROJECT_DIR$/application/templates/cashtreats/blog_post_pagination.html" />
         <option value="$PROJECT_DIR$/application/templates/users/login.html" />
@@ -212,25 +256,58 @@
         <option value="$PROJECT_DIR$/application/templates/friends/friends_home.html" />
         <option value="$PROJECT_DIR$/application/templates/friends/friends_post_detail.html" />
         <option value="$PROJECT_DIR$/events/urls.py" />
-        <option value="$PROJECT_DIR$/users/views.py" />
-        <option value="$PROJECT_DIR$/friends/views.py" />
         <option value="$PROJECT_DIR$/application/urls.py" />
         <option value="$PROJECT_DIR$/application/templates/buy&amp;sell/post_home.html" />
         <option value="$PROJECT_DIR$/application/templates/events/events_home.html" />
         <option value="$PROJECT_DIR$/application/templates/cashtreats/home.html" />
-        <option value="$PROJECT_DIR$/website/settings.py" />
         <option value="$PROJECT_DIR$/events/views.py" />
+        <option value="$PROJECT_DIR$/static/vid.html" />
+        <option value="$PROJECT_DIR$/templates/cashtreats/blog_post_pagination.html" />
+        <option value="$PROJECT_DIR$/static/assets/css/Background-motion1.css" />
+        <option value="$PROJECT_DIR$/static/assets/js/file.js" />
+        <option value="$PROJECT_DIR$/static/assets/css/file.css" />
+        <option value="$PROJECT_DIR$/static/assets/css/best-carousel-slide.css" />
+        <option value="$PROJECT_DIR$/templates/users/profile.html" />
+        <option value="$PROJECT_DIR$/static/assets/css/Background-motion1-1.css" />
+        <option value="$PROJECT_DIR$/cashtreats/views.py" />
+        <option value="$PROJECT_DIR$/cashtreats/urls.py" />
+        <option value="$PROJECT_DIR$/templates/cashtreats/footer.html" />
         <option value="$PROJECT_DIR$/templates/events/events_home.html" />
-        <option value="$PROJECT_DIR$/templates/buy&amp;sell/post_home.html" />
+        <option value="$PROJECT_DIR$/templates/events/events_post_detail.html" />
         <option value="$PROJECT_DIR$/application/views.py" />
+        <option value="$PROJECT_DIR$/templates/buy&amp;sell/post_home.html" />
+        <option value="$PROJECT_DIR$/users/views.py" />
+        <option value="$PROJECT_DIR$/templates/cashtreats/terms.html" />
+        <option value="$PROJECT_DIR$/templates/cashtreats/services.html" />
+        <option value="$PROJECT_DIR$/templates/cashtreats/policy.html" />
+        <option value="$PROJECT_DIR$/templates/cashtreats/about.html" />
+        <option value="$PROJECT_DIR$/templates/buy&amp;sell/post_detail.html" />
+        <option value="$PROJECT_DIR$/templates/base.html" />
+        <option value="$PROJECT_DIR$/friends/admin.py" />
+        <option value="$PROJECT_DIR$/static/assets/js/progress-bar-upload.js" />
+        <option value="$PROJECT_DIR$/templates/friends/modelform.html" />
+        <option value="$PROJECT_DIR$/templates/cashtreats/stuff.html" />
+        <option value="$PROJECT_DIR$/templates/cashtreats/footer-sort.html" />
+        <option value="$PROJECT_DIR$/templates/users/login.html" />
+        <option value="$PROJECT_DIR$/website/settings.py" />
+        <option value="$PROJECT_DIR$/templates/friends/new.html" />
+        <option value="$PROJECT_DIR$/friends/urls.py" />
+        <option value="$PROJECT_DIR$/friends/views.py" />
+        <option value="$PROJECT_DIR$/templates/friends/friends_home.html" />
+        <option value="$PROJECT_DIR$/templates/friends/friends_post_detail.html" />
+        <option value="$PROJECT_DIR$/friends/models.py" />
+        <option value="$PROJECT_DIR$/templates/friends/friends_post_form.html" />
+        <option value="$PROJECT_DIR$/templates/buy&amp;sell/post_form.html" />
+        <option value="$PROJECT_DIR$/templates/events/events_post_form.html" />
+        <option value="$PROJECT_DIR$/templates/cashtreats/home.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="151" />
-    <option name="y" value="280" />
-    <option name="width" value="1179" />
-    <option name="height" value="687" />
+    <option name="x" value="10" />
+    <option name="y" value="20" />
+    <option name="width" value="1260" />
+    <option name="height" value="640" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -255,6 +332,18 @@
               <item name="website" type="b2602c69:ProjectViewProjectNode" />
               <item name="website" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="buy&amp;sell" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="website" type="b2602c69:ProjectViewProjectNode" />
+              <item name="website" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="events" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="website" type="b2602c69:ProjectViewProjectNode" />
+              <item name="website" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
               <item name="friends" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -266,21 +355,22 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="C:/Program Files/Git/cmd/git.exe" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/static/assets/js" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.appearance" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\website\templates" />
       <recent name="G:\website" />
       <recent name="G:\website\application\templates\cashtreats" />
       <recent name="G:\website\application\templates\buy&amp;sell" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\website\static\assets\js" />
+      <recent name="G:\website\templates\cashtreats" />
+      <recent name="G:\website\static\assets\css" />
       <recent name="G:\website\application\templates\cashtreats" />
       <recent name="G:\website\cashtreats" />
-      <recent name="G:\website\application\templates" />
-      <recent name="G:\website\application\static" />
-      <recent name="G:\website\application\templates\events" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -309,12 +399,21 @@
       <option name="presentableId" value="Default" />
       <updated>1586332070304</updated>
     </task>
+    <task id="LOCAL-00001" summary="paginator work">
+      <created>1588566983891</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1588566983891</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1296" height="696" extended-state="7" />
+    <frame x="-8" y="-8" width="1296" height="696" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49363866" visible="true" weight="0.20667727" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49363866" visible="true" weight="0.21065183" />
       <window_info id="Structure" order="1" sideWeight="0.5063613" side_tool="true" weight="0.20667727" />
       <window_info id="Favorites" order="2" sideWeight="0.50127226" side_tool="true" weight="0.20429252" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -325,7 +424,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49841017" weight="0.3321492" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.49841017" visible="true" weight="0.30195382" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49841017" visible="true" weight="0.25044405" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50158983" side_tool="true" weight="0.3321492" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.3285968" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -383,122 +482,198 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="paginator work" />
+    <option name="LAST_COMMIT_MESSAGE" value="paginator work" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/templates/cashtreats/upload.html">
+    <entry file="file://$PROJECT_DIR$/static/assets/css/Background-motion1-1.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="107">
-          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+        <state relative-caret-position="153">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cashtreats/migrations/0001_initial.py">
+    <entry file="file://$PROJECT_DIR$/static/assets/css/Background-motion1.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-255" />
+        <state relative-caret-position="-102">
+          <caret column="16" selection-start-column="16" selection-end-column="16" />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cashtreats/admin.py">
+    <entry file="file://$PROJECT_DIR$/static/assets/css/Responsive-footer.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/assets/css/Responsive-footer-1.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/assets/css/Search-Field-With-Icon.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
-          <caret line="1" column="30" selection-start-line="1" selection-start-column="30" selection-end-line="1" selection-end-column="30" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/assets/css/sticky-dark-top-nav-with-dropdown.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2091" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cashtreats/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="11" column="32" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
+        <state relative-caret-position="220">
+          <caret line="16" column="45" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="45" />
           <folding>
             <element signature="e#1#43#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/users/forms.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#24#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/website/asgi.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/website/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/website/wsgi.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/website/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="32" column="94" selection-start-line="32" selection-start-column="89" selection-end-line="32" selection-end-column="94" />
-          <folding>
-            <element signature="e#631#673#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/auth/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="40" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/friends/friends_post_form.html">
+    <entry file="file://$PROJECT_DIR$/templates/vid.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
-          <caret line="18" column="65" selection-start-line="18" selection-start-column="65" selection-end-line="18" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cashtreats/serializers.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="38" selection-start-column="38" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cashtreats/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" selection-start-line="16" selection-start-column="1" selection-end-line="19" selection-end-column="55" />
+          <caret line="12" column="14" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
           <folding>
-            <element signature="e#0#28#0" expanded="true" />
+            <element signature="n#style#0;n#video#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/buy&amp;sell/post_detail.html">
+    <entry file="file://$PROJECT_DIR$/templates/cashtreats/blog_post_pagination.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="45" column="21" selection-start-line="11" selection-end-line="45" selection-end-column="21" />
+        <state relative-caret-position="102">
+          <caret line="6" column="38" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="75" />
           <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#!!top" expanded="true" />
+            <element signature="e#349#356#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/events/events_post_detail.html">
+    <entry file="file://$PROJECT_DIR$/templates/cashtreats/footer.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="19" column="97" selection-start-line="19" selection-start-column="97" selection-end-line="19" selection-end-column="97" />
+        <state relative-caret-position="51">
+          <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="10" selection-end-column="21" />
+          <folding>
+            <element signature="n#style#0;n#ul#0;n#div#0;n#div#0;n#footer#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#footer#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#li#1;n#ul#0;n#div#0;n#div#0;n#footer#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#li#2;n#ul#0;n#div#0;n#div#0;n#footer#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#li#3;n#ul#0;n#div#0;n#div#0;n#footer#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#li#4;n#ul#0;n#div#0;n#div#0;n#footer#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/users/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="27" column="58" selection-start-line="27" selection-start-column="58" selection-end-line="27" selection-end-column="58" />
+          <folding>
+            <element signature="e#0#45#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/buy&amp;sell/post_home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="33" column="24" selection-start-line="33" selection-start-column="24" selection-end-line="33" selection-end-column="24" />
+          <folding>
+            <element signature="n#style#0;n#body#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#form#0;n#body#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#form#0;n#body#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#div#0;n#div#0;n#form#0;n#body#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#body#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#1;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/events/events_home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="28" column="57" lean-forward="true" selection-start-line="28" selection-start-column="57" selection-end-line="28" selection-end-column="82" />
           <folding>
             <element signature="n#style#0;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#form#0;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#form#0;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#div#0;n#div#0;n#form#0;n#body#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#a#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#1;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#a#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#0;n#tr#1;n#tbody#0;n#table#0;n#div#0;n#a#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#1;n#tr#1;n#tbody#0;n#table#0;n#div#0;n#a#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/cashtreats/policy.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="25" column="38" selection-start-line="25" selection-start-column="38" selection-end-line="25" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/cashtreats/about.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="69" column="38" selection-start-line="69" selection-start-column="38" selection-end-line="69" selection-end-column="38" />
+          <folding>
+            <element signature="n#style#0;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h2#6;n#div#0;n#body#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/cashtreats/services.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="55" column="38" selection-start-line="55" selection-start-column="38" selection-end-line="55" selection-end-column="38" />
+          <folding>
+            <element signature="n#style#0;n#body#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/cashtreats/terms.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="192" column="40" selection-start-line="192" selection-start-column="40" selection-end-line="192" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/events/events_post_confirm_delete.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/buy&amp;sell/post_confirm_delete.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#1#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="30" column="39" selection-start-line="30" selection-start-column="39" selection-end-line="30" selection-end-column="64" />
+          <folding>
+            <element signature="e#0#44#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/users/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
+        <state relative-caret-position="136">
           <caret line="9" selection-start-line="9" selection-end-line="9" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
@@ -506,30 +681,138 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/buy&amp;sell/post_form.html">
+    <entry file="file://$PROJECT_DIR$/cashtreats/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-29" />
+        <state relative-caret-position="311">
+          <caret line="34" column="47" selection-start-line="34" selection-start-column="47" selection-end-line="34" selection-end-column="47" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/assets/js/jquery-3.1.1.min.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="36" column="17" selection-start-line="36" selection-start-column="17" selection-end-line="36" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/friends/apps.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/friends/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/assets/js/jquery-file-upload/jquery.iframe-transport.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3423" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/assets/js/jquery-file-upload/vendor/jquery.ui.widget.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-612" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/assets/js/jquery-file-upload/jquery.fileupload.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3672" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/friends/search_result.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/cashtreats/footer-sort.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        <state relative-caret-position="85">
+          <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="72" />
+          <folding>
+            <element signature="n#style#0;n#ul#0;n#div#0;n#div#0;n#div#2;n#footer#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#2;n#footer#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#li#1;n#ul#0;n#div#0;n#div#0;n#div#2;n#footer#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#li#2;n#ul#0;n#div#0;n#div#0;n#div#2;n#footer#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#li#3;n#ul#0;n#div#0;n#div#0;n#div#2;n#footer#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#li#4;n#ul#0;n#div#0;n#div#0;n#div#2;n#footer#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/buy&amp;sell/post_detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="53" column="60" selection-start-line="53" selection-start-column="60" selection-end-line="53" selection-end-column="60" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/users/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="15" column="12" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="27" />
           <folding>
             <element signature="n#style#0;n#body#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#body#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#a#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#a#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#1;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#a#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#body#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/cashtreats/stuff.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/friends/modelform.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+          <folding>
+            <element signature="e#2225#2340#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="31" selection-start-line="31" selection-end-line="32" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/assets/js/progress-bar-upload.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="26" column="33" lean-forward="true" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/website/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="56" column="15" selection-start-line="56" selection-start-column="15" selection-end-line="56" selection-end-column="15" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/nav.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        <state relative-caret-position="-85">
+          <caret line="13" column="125" selection-start-line="13" selection-start-column="125" selection-end-line="13" selection-end-column="160" />
           <folding>
             <element signature="n#style#0;n#nav#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#0;n#div#0;n#nav#0;n#!!top" expanded="true" />
@@ -542,87 +825,125 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/friends/models.py">
+    <entry file="file://$PROJECT_DIR$/templates/friends/new.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="51" column="8" selection-start-line="51" selection-start-column="8" selection-end-line="51" selection-end-column="8" />
+        <state relative-caret-position="85">
+          <caret line="57" column="18" selection-start-line="57" selection-start-column="18" selection-end-line="57" selection-end-column="18" />
           <folding>
-            <element signature="e#0#28#0" expanded="true" />
+            <element signature="n#style#0;n#body#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/friends/urls.py">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="3" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/friends/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-22">
+          <caret line="132" column="52" selection-start-line="132" selection-start-column="52" selection-end-line="132" selection-end-column="52" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/friends/friends_home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="39" column="109" selection-start-line="39" selection-start-column="109" selection-end-line="39" selection-end-column="109" />
+          <folding>
+            <element signature="n#style#0;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#form#0;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#form#0;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#div#0;n#div#0;n#form#0;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#form#0;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#div#1;n#form#0;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#1;n#div#1;n#form#0;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#2;n#div#1;n#form#0;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/friends/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="89" column="52" selection-start-line="89" selection-start-column="52" selection-end-line="89" selection-end-column="52" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/friends/friends_post_form.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" selection-start-line="5" selection-end-line="7" selection-end-column="7" />
+          <folding>
+            <element signature="n#style#0;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#body#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/events/events_post_form.html">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
-          <caret line="12" column="16" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="21" />
+          <caret line="7" column="39" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
           <folding>
-            <element signature="e#1#33#0" expanded="true" />
+            <element signature="n#style#0;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#body#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/cashtreats/blog_post_pagination.html">
+    <entry file="file://$PROJECT_DIR$/templates/buy&amp;sell/post_form.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="133" selection-start-line="6" selection-start-column="125" selection-end-line="6" selection-end-column="133" />
+        <state relative-caret-position="119">
+          <caret line="7" column="38" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
           <folding>
-            <element signature="e#349#356#0" expanded="true" />
+            <element signature="n#style#0;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#body#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/cashtreats/stuff.html">
+    <entry file="file://$PROJECT_DIR$/templates/cashtreats/home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="14" column="6" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
+        <state relative-caret-position="190">
+          <caret line="52" column="72" selection-start-line="52" selection-start-column="72" selection-end-line="52" selection-end-column="72" />
           <folding>
-            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#0;n#div#0;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h3#0;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h2#0;n#div#0;n#div#1;n#div#0;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h2#0;n#div#2;n#div#0;n#body#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/assets/css/Team-Boxed.css">
+    <entry file="file://$PROJECT_DIR$/templates/events/events_post_detail.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-714" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/assets/css/Search-Field-With-Icon.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        <state relative-caret-position="204">
+          <caret line="12" column="2" lean-forward="true" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
+          <folding>
+            <element signature="n#style#0;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#body#0;n#!!top" expanded="true" />
+          </folding>
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/assets/css/Projects-Horizontal.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/assets/css/Projects-Clean.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/assets/css/Check-Out-Page-V100.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/assets/css/best-carousel-slide.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="37" selection-start-line="37" selection-end-line="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/assets/fonts/font-awesome.min.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/assets/css/Team-Clean.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-510" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/friends/friends_post_detail.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="289">
+          <caret line="17" column="33" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
           <folding>
             <element signature="n#style#0;n#body#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#body#0;n#!!top" expanded="true" />
@@ -634,201 +955,7 @@
             <element signature="n#style#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#1;n#div#0;n#body#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#td#1;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#1;n#div#0;n#body#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#td#1;n#tr#2;n#tbody#0;n#table#0;n#div#0;n#div#1;n#div#0;n#body#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/users/register.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="108" column="8" selection-start-line="108" selection-start-column="8" selection-end-line="108" selection-end-column="8" />
-          <folding>
-            <element signature="n#style#0;n#body#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#body#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/users/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="57" selection-start-line="57" selection-end-line="125" selection-end-column="8" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/users/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="26" column="86" selection-start-line="26" selection-start-column="86" selection-end-line="26" selection-end-column="86" />
-          <folding>
-            <element signature="e#0#45#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/events/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="10" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="20" />
-          <folding>
-            <element signature="e#1#33#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="8" column="18" lean-forward="true" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="10" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="19" />
-          <folding>
-            <element signature="e#1#29#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/events/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="56" column="9" selection-start-line="56" selection-start-column="4" selection-end-line="56" selection-end-column="9" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/friends/filters.py" />
-    <entry file="file://$PROJECT_DIR$/friends/tests.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/website/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="73" column="17" selection-start-line="73" selection-start-column="17" selection-end-line="73" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/cashtreats/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-37">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-51">
-          <caret line="27" column="27" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="27" />
-          <folding>
-            <element signature="e#0#44#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/buy&amp;sell/post_home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="31" column="28" selection-start-line="31" selection-start-column="28" selection-end-line="31" selection-end-column="28" />
-          <folding>
-            <element signature="n#style#0;n#body#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#form#0;n#body#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#form#0;n#body#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#0;n#div#0;n#div#0;n#form#0;n#body#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#body#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#1;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/events/events_home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="24" column="28" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
-          <folding>
-            <element signature="n#style#0;n#body#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#form#0;n#body#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#form#0;n#body#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#0;n#div#0;n#div#0;n#form#0;n#body#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#body#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#a#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#1;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#a#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#0;n#tr#1;n#tbody#0;n#table#0;n#div#0;n#a#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#1;n#tr#1;n#tbody#0;n#table#0;n#div#0;n#a#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/events/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="18" selection-start-line="18" selection-end-line="18" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/friends/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="45" column="21" selection-start-line="45" selection-start-column="21" selection-end-line="45" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cashtreats/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="20" column="51" selection-start-line="20" selection-start-column="51" selection-end-line="20" selection-end-column="51" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-454">
-          <caret line="6" column="16" lean-forward="true" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/friends/friends_home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1113">
-          <caret line="81" lean-forward="true" selection-start-line="81" selection-end-line="81" />
-          <folding>
-            <element signature="n#style#0;n#body#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#form#0;n#body#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#form#0;n#body#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#0;n#div#0;n#div#0;n#form#0;n#body#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#form#0;n#body#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#0;n#div#1;n#form#0;n#body#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#1;n#div#1;n#form#0;n#body#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#2;n#div#1;n#form#0;n#body#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#1;n#tr#4;n#tbody#0;n#table#0;n#div#0;n#div#1;n#div#0;n#body#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>

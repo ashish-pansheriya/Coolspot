@@ -6,6 +6,8 @@ from django.contrib.auth.decorators import login_required
 from application.models import databank
 from friends.models import friends
 from events.models import events
+from django.contrib.auth.models import User
+
 
 def register(request):
     if request.method == 'POST':
@@ -21,7 +23,8 @@ def register(request):
 
 @login_required
 def profile(request):
-    bank = databank.objects.all()
-    profile = friends.objects.all()
-    eva = events.objects.all()
-    return render(request, 'users/profile.html',  {'profile': profile, 'bank':bank}, {'eva':eva})
+    queryset = friends.objects.all().order_by('-date_posted')
+    eva = events.objects.all().order_by('-date_posted')
+    bank = databank.objects.all().order_by('-date_posted')
+
+    return render(request, 'users/profile.html',  {'queryset': queryset, 'bank':bank,'eva':eva }, )

@@ -4,8 +4,9 @@
 {% load static %}
 
 
-  <title>{% block title %} H O M E {% endblock %}</title>
-
+<head>
+  <title>{% block title %}Event Details {% endblock %}</title>
+</head>
 {% block body %}
 <body  style="background:linear-gradient(120deg, #122B40, #446CB3);">
 
@@ -35,15 +36,23 @@
 
         <small class="text-muted">Event topic</small> {{ object.topic }}
         <p><small class="text-muted">Type of event</small> {{ object.types }}</p>
-        <p class="card-text"><i class="fas fa-phone"></i> {{ object.contact }} |
-        <i class="fas fa-envelope-open"></i> {{ object.email }}</p>
         <small class="text-muted">Organizer</small> {{ object.organiser }}
         <p><small class="text-muted">About Organizer</small> {{ object.description2 }}</p>
-
-
-
+ <p>
+  <a class="btn btn-danger" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+    Contact Now
+  </a>
+</p>
+<div class="collapse" id="collapseExample">
+  <div class="card card-body">
+      <h5 class="text-primary"><i class="fas fa-phone"></i> {{object.contact}}</h5>
+      <h5 class="text-primary"><i class="fas fa-envelope-open"></i> {{object.email}}</h5>
+  </div>
+</div>
       </div>
     </div>
+  </div>
+
  <div class="card-header">          {% if object.author == user %}
 <a class="btn btn-secondary btn-sm mt-1 mb-1" href="{% url 'event-post-update' object.id %}"> Update</a>
 <a class="btn btn-danger btn-sm mt-1 mb-1" href="{% url 'event-post-delete' object.id %}"> Delete</a>
@@ -51,4 +60,5 @@
     {% endif %}</div>
 
 </body>
+{% include 'cashtreats/footer-sort.html' %}
 {% endblock %}

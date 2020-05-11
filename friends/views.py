@@ -1,6 +1,10 @@
 from django.shortcuts import render
 from django.http import HttpResponse
-from .models import friends
+import time
+from django.contrib import messages
+from django.shortcuts import render, redirect
+from django.http import JsonResponse
+from .models import *
 from django.views.generic.edit import FormView
 from django.contrib.auth.mixins import LoginRequiredMixin, UserPassesTestMixin
 from django.views.generic import ListView, DetailView, CreateView, UpdateView, DeleteView, View
@@ -9,13 +13,64 @@ from django.forms import formset_factory
 #from .filters import friendsFilter
 from django.db.models import Q
 from django.core.paginator import Paginator, EmptyPage, PageNotAnInteger
+from django.http import HttpResponseRedirect
 
 def filter(request):
 
     context = {'AAAA':'AAAA'}
     return render(request, 'cashtreats/stuff.html', {'context':context})
 
+class ItemCreation(CreateView):
+    template_name = "friends/modelform.html"
+    model = friends
+    form_class = frienddata
+    success_url = 'home'
+#     def get_context_data(self,**kwargs,request):
+#         photos = friends.objects.all()
+#         formv = frienddata(request.POST)
+#         if formv.is_valid():
+#             formv.save()
+#             return HttpResponseRedirect('/')
+#         else:
+#             formv = frienddata()
+#         return render(request, 'friends/modelform.html', {'formv': formv})
+#
 
+def geter(request):
+    photos = friends.objects.all()
+    formv = frienddata(request.POST)
+    if formv.is_valid():
+        formv.save()
+        return HttpResponseRedirect('/')
+    else:
+        formv = frienddata()
+    return render(request, 'friends/modelform.html', {'formv':formv})
+
+
+class ProgressBarUploadView(LoginRequiredMixin, CreateView):
+    def get(self, request):
+        formv = frienddata(self.request.POST)
+        if formv.is_valid():
+            formv.save()
+            return HttpResponseRedirect('friend-home')
+        else:
+            formv = frienddata()
+        return render(request, 'friends/new.html', {'formv':formv})
+
+    def post(self, request):
+        form = friend(self.request.POST, self.request.FILES)
+        if form.is_valid():
+            photo = form.save()
+            data = {'is_valid': True, 'name': photo.file.name, 'url': photo.file.url}
+        else:
+            data = {'is_valid': False}
+        formv = frienddata(request.POST)
+        if formv.is_valid():
+            formv.save()
+            return HttpResponseRedirect('friend-home')
+        else:
+            formv = frienddata()
+        return JsonResponse(data)
 
 
 ######
@@ -31,6 +86,7 @@ BLOG_POST_PER_PAGE = 8
 class Searchview(View):
 
     def get(self, request, *args, **kwargs):
+
         queryset = friends.objects.all().order_by('-date_posted') # ordering latest first
         query = request.GET.get('q')
         queryradio = request.GET.get('gender')
@@ -57,7 +113,7 @@ class Searchview(View):
             queryset = blog_posts_paginator.page(blog_posts_paginator.num_pages)
 
         context = {
-            'queryset': queryset
+            'queryset': queryset,
         }
         return render(request, 'friends/friends_home.html', context )
 
@@ -71,6 +127,7 @@ class friendPostDetailView(DetailView):
 
 
 class friendPostCreateView(LoginRequiredMixin, CreateView):
+
     model = friends
     fields = ['name', 'age', 'activities', 'gender', 'body', 'height', 'fees', 'language','contact', 'email', 'address', 'about', 'photo']
     template_name = 'friends/friends_post_form.html'
@@ -82,7 +139,8 @@ class friendPostCreateView(LoginRequiredMixin, CreateView):
 
 class friendPostUpdateView(LoginRequiredMixin, UserPassesTestMixin, UpdateView):  # prevent from unauthorised update
     model = friends
-    fields = ['name', 'age', 'activities', 'gender', 'body', 'height', 'fees', 'language','contact', 'email', 'address', 'about', 'photo']
+    fields = ['name', 'age', 'activities', 'gender', 'body', 'height', 'fees', 'language', 'contact', 'email',
+              'address', 'about', 'photo']
     template_name = 'friends/friends_post_form.html'
 
     def form_valid(self, form):

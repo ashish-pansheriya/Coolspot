@@ -4,9 +4,8 @@
 {% load static %}
 
 
-  <title>{% block title %} Home - Ca$H❤Treat${% endblock %}</title>
 <head>
-
+  <title>{% block title %}Post Home {% endblock %}</title>
 </head>
 <body>
 
@@ -18,7 +17,7 @@
 
 <form method='GET' style="margin: 10px auto;" action="{% url 'post-home' %}">
 <div class="input-group" style="width: 70%; margin: 10px auto;">
-    <input type="text"  name='q'  class="form-control" placeholder="Search for product or enter city: eg. Toronto .. " style="padding-left: 2.375rem;">
+    <input type="text"  name='q'  class="form-control" placeholder="Search for product or search city Example: Toronto .. " style="padding-left: 2.375rem;">
     <div class="input-group-append">
         <button class="btn btn-danger" type='submit' style="border-radius: 1px 5px 5px 1px;" type="button">
         <i class="fa fa-search"></i>
@@ -30,20 +29,22 @@
 <div class="row mx-auto" style="margin-top: 22px;" >
 
     {% for posts in queryset %}
-    <div class="col-md-2 mx-auto">
+
+
+    <div class="col-md-3 mx-auto">
         <div class="mx-auto" >
             <div class="mx-auto" >
-                 <div class="card bg-light mb-5 mx-auto">
+                 <div class="card bg-light mb-5 mx-auto " >
                      <div class="row no-gutters">
                         <div class="col-md-12" >
-                             <a href="{% url 'post-detail' posts.id %}"><img src="{{ posts.photo.url }}" class="card-img" alt="..."></a>
+                             <a href="{% url 'post-detail' posts.id %}"><img src="{{ posts.photo.url }}" class="card-img" style="width: 100%; height: 30ex; object-fit: cover;" alt="..."></a>
                         </div>
 
                             <div class="col-md-12">
                                 <a class="custom-card" style="color: #212529; text-decoration: none;" href="{% url 'post-detail' posts.id %}">
                                 <div class="card-body">
-                                <h6 class="text-success"><i class="fas fa-tags"></i>{{posts.price}}</h6>
-                                <h6 class="text-info"> {{posts.title}}</h6>
+                                    <h6 class="text-info"> {{posts.title|truncatewords:8}}</h6>
+                                    <h6 class="text-success"><i class="fas fa-tags"></i>{{posts.price|truncatewords:10}}</h6>
                           <p class="card-text"><small class="text-muted">{{posts.date_posted|date:"F d, Y"}}</small></p>
                             </div></a>
                         </div>
@@ -61,4 +62,5 @@
 <div class="d-flex justify-content-center">{% include 'cashtreats/blog_post_pagination.html' with queryset=queryset %}</div>
 
 </body>
+{% include 'cashtreats/footer-sort.html' %}
 {% endblock %}

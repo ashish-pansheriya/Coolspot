@@ -20,8 +20,21 @@ def home(request):
 
     return render(request, 'cashtreats/home.html', )
 
+def terms(request):
 
-#
+    return render(request, 'cashtreats/terms.html', )
+
+
+def about(request):
+    return render(request, 'cashtreats/about.html', )
+
+def policy(request):
+    return render(request, 'cashtreats/policy.html', )
+
+def services(request):
+    return render(request, 'cashtreats/services.html', )
+
+
 # def upload(request,user_id):
 #     for afile in request.FILES.getlist('files'):
 #         user = UserProfile.objects.get(user_id=user_id)
