@@ -5,360 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="32adf632-2090-4ae2-a049-56cbd9560214" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blogs/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/recruiter/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/blogs/blog_confirm_delete.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/blogs/blog_detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/blogs/blog_form.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/blogs/blog_home.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/recruiters/recruiters_home.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/recruiters/recruiters_post_confirm_delete.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/recruiters/recruiters_post_detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/recruiters/recruiters_post_form.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/migrations/0002_remove_databank_price.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/migrations/0003_databank_price.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/migrations/0004_databank_address.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/migrations/0005_auto_20200423_0338.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/migrations/0006_auto_20200423_0406.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/migrations/0007_auto_20200423_0429.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/migrations/0008_auto_20200423_0557.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/migrations/0009_auto_20200423_0651.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/migrations/0010_auto_20200424_2306.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/migrations/0011_databank_owner.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/application/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/application/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/application/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cashtreats/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cashtreats/serializers.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cashtreats/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/cashtreats/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cashtreats/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/cashtreats/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/events/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/events/migrations/0002_auto_20200417_0523.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/events/migrations/0003_events_date_posted.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/events/migrations/0004_auto_20200423_0651.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/events/migrations/0005_auto_20200423_0709.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/events/migrations/0006_auto_20200424_0119.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/events/migrations/0007_auto_20200424_0128.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/events/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/events/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/events/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/events/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/events/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/events/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/friends/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/friends/migrations/0002_auto_20200408_2204.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/friends/migrations/0003_album_musician.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/friends/migrations/0004_musician_artist.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/friends/migrations/0005_remove_musician_artist.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/friends/migrations/0006_auto_20200412_0932.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/friends/migrations/0007_auto_20200417_0155.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/friends/migrations/0008_auto_20200422_0806.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/friends/migrations/0009_auto_20200422_0859.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/friends/migrations/0010_auto_20200422_1916.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/friends/migrations/0011_auto_20200422_2000.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/friends/migrations/0012_friends_fees.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/friends/migrations/0013_auto_20200422_2011.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/friends/migrations/0014_friends_activites.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/friends/migrations/0015_auto_20200423_0023.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/friends/migrations/0016_auto_20200423_0330.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/friends/migrations/0017_auto_20200423_0333.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/friends/migrations/0018_auto_20200423_0338.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/friends/migrations/0019_auto_20200423_0340.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/friends/migrations/0020_auto_20200423_0342.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/friends/migrations/0021_auto_20200423_0557.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/friends/migrations/0022_auto_20200423_0651.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/friends/migrations/0023_auto_20200424_2306.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/friends/migrations/0024_auto_20200424_2310.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/friends/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/friends/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/friends/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/friends/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/friends/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/friends/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/media/Ashish_P.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/media/angry-animal-animal-photography-big-516541.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/media/animals-antelopes-bloom-blossom-52961.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/media/architecture-buildings-business-city-325185.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/media/architecture-buildings-business-city-325185_BrahB36.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/media/beach-dawn-dusk-ocean-189349.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/media/brown-and-gray-painted-house-in-front-of-road-1396122.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/media/close-up-photo-of-street-lamps-1629998.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/media/clouds-conifers-fir-trees-forest-275538.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/media/gray-bridge-and-trees-814499.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/media/landscape-photo-of-forest-2055389.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/media/lizert.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/media/lizert_7BZnDzO.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/media/lizert_fMPT6Qq.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/media/nature-bird-love-heart-45853.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/media/picok.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/media/picok_pxsOJgx.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/media/placeholder.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/media/purple-gradient-background.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/media/sheep.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/media/tiger.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/media/tiger_lzyOP0z.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/media/view-of-elephant-in-water-247431.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/media/woman-wearing-grey-long-sleeved-top-photography-1122868.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/profile_pics/default_ONWR46A.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/profile_pics/default_Yl5UfI2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/assets/css/Background-motion1-1.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets/css/Background-motion1-1.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/assets/css/best-carousel-slide.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets/css/best-carousel-slide.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/buy&amp;sell/post_confirm_delete.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/buy&amp;sell/post_confirm_delete.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/buy&amp;sell/post_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/buy&amp;sell/post_detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/buy&amp;sell/post_form.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/buy&amp;sell/post_form.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/buy&amp;sell/post_home.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/buy&amp;sell/post_home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/cashtreats/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/cashtreats/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/cashtreats/footer-sort.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/cashtreats/footer-sort.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/cashtreats/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/cashtreats/footer.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/cashtreats/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/cashtreats/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/cashtreats/policy.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/cashtreats/policy.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/cashtreats/services.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/cashtreats/services.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/cashtreats/stuff.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/cashtreats/stuff.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/cashtreats/terms.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/cashtreats/terms.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/events/events_home.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/events/events_home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/events/events_post_confirm_delete.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/events/events_post_confirm_delete.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/events/events_post_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/events/events_post_detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/events/events_post_form.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/events/events_post_form.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/friends/friends_home.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/friends/friends_home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/friends/friends_post_confirm_delete.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/friends/friends_post_confirm_delete.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/friends/friends_post_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/friends/friends_post_detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/friends/friends_post_form.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/friends/friends_post_form.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/nav.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/nav.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/users/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/users/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/users/profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/users/profile.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/users/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/djangorestframework-3.11.0.dist-info/INSTALLER" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/djangorestframework-3.11.0.dist-info/LICENSE.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/djangorestframework-3.11.0.dist-info/METADATA" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/djangorestframework-3.11.0.dist-info/RECORD" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/djangorestframework-3.11.0.dist-info/WHEEL" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/djangorestframework-3.11.0.dist-info/top_level.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/apps.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/authentication.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/authtoken/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/authtoken/admin.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/authtoken/apps.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/authtoken/management/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/authtoken/management/commands/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/authtoken/management/commands/drf_create_token.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/authtoken/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/authtoken/migrations/0002_auto_20160226_1747.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/authtoken/migrations/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/authtoken/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/authtoken/serializers.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/authtoken/views.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/checks.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/compat.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/decorators.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/documentation.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/exceptions.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/fields.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/filters.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/generics.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/locale/ach/LC_MESSAGES/django.mo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/locale/ar/LC_MESSAGES/django.mo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/locale/be/LC_MESSAGES/django.mo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/locale/ca/LC_MESSAGES/django.mo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/locale/ca_ES/LC_MESSAGES/django.mo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/locale/cs/LC_MESSAGES/django.mo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/locale/da/LC_MESSAGES/django.mo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/locale/de/LC_MESSAGES/django.mo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/locale/el/LC_MESSAGES/django.mo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/locale/el_GR/LC_MESSAGES/django.mo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/locale/en/LC_MESSAGES/django.mo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/locale/en_AU/LC_MESSAGES/django.mo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/locale/en_CA/LC_MESSAGES/django.mo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/locale/en_US/LC_MESSAGES/django.mo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/locale/es/LC_MESSAGES/django.mo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/locale/et/LC_MESSAGES/django.mo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/locale/fa/LC_MESSAGES/django.mo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/locale/fa_IR/LC_MESSAGES/django.mo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/locale/fi/LC_MESSAGES/django.mo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/locale/fr/LC_MESSAGES/django.mo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/locale/fr_CA/LC_MESSAGES/django.mo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/locale/gl/LC_MESSAGES/django.mo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/locale/gl_ES/LC_MESSAGES/django.mo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/locale/he_IL/LC_MESSAGES/django.mo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/locale/hu/LC_MESSAGES/django.mo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/locale/id/LC_MESSAGES/django.mo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/locale/it/LC_MESSAGES/django.mo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/locale/ja/LC_MESSAGES/django.mo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/locale/ko_KR/LC_MESSAGES/django.mo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/locale/lv/LC_MESSAGES/django.mo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/locale/mk/LC_MESSAGES/django.mo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/locale/nb/LC_MESSAGES/django.mo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/locale/nl/LC_MESSAGES/django.mo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/locale/nn/LC_MESSAGES/django.mo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/locale/no/LC_MESSAGES/django.mo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/locale/pl/LC_MESSAGES/django.mo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/locale/pt/LC_MESSAGES/django.mo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/locale/pt_BR/LC_MESSAGES/django.mo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/locale/pt_PT/LC_MESSAGES/django.mo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/locale/ro/LC_MESSAGES/django.mo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/locale/ru/LC_MESSAGES/django.mo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/locale/sk/LC_MESSAGES/django.mo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/locale/sl/LC_MESSAGES/django.mo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/locale/sv/LC_MESSAGES/django.mo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/locale/tr/LC_MESSAGES/django.mo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/locale/tr_TR/LC_MESSAGES/django.mo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/locale/uk/LC_MESSAGES/django.mo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/locale/vi/LC_MESSAGES/django.mo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/locale/zh_CN/LC_MESSAGES/django.mo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/locale/zh_Hans/LC_MESSAGES/django.mo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/locale/zh_Hant/LC_MESSAGES/django.mo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/locale/zh_TW/LC_MESSAGES/django.mo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/management/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/management/commands/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/management/commands/generateschema.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/metadata.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/mixins.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/negotiation.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/pagination.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/parsers.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/permissions.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/relations.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/renderers.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/request.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/response.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/reverse.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/routers.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/schemas/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/schemas/coreapi.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/schemas/generators.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/schemas/inspectors.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/schemas/openapi.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/schemas/utils.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/schemas/views.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/serializers.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/settings.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/static/rest_framework/css/bootstrap-theme.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/static/rest_framework/css/bootstrap-tweaks.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/static/rest_framework/css/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/static/rest_framework/css/default.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/static/rest_framework/css/font-awesome-4.0.3.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/static/rest_framework/css/prettify.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/static/rest_framework/docs/css/base.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/static/rest_framework/docs/css/highlight.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/static/rest_framework/docs/css/jquery.json-view.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/static/rest_framework/docs/img/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/static/rest_framework/docs/img/grid.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/static/rest_framework/docs/js/api.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/static/rest_framework/docs/js/highlight.pack.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/static/rest_framework/docs/js/jquery.json-view.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/static/rest_framework/fonts/fontawesome-webfont.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/static/rest_framework/fonts/fontawesome-webfont.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/static/rest_framework/fonts/fontawesome-webfont.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/static/rest_framework/fonts/fontawesome-webfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/static/rest_framework/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/static/rest_framework/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/static/rest_framework/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/static/rest_framework/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/static/rest_framework/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/static/rest_framework/img/glyphicons-halflings-white.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/static/rest_framework/img/glyphicons-halflings.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/static/rest_framework/img/grid.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/static/rest_framework/js/ajax-form.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/static/rest_framework/js/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/static/rest_framework/js/csrf.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/static/rest_framework/js/default.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/static/rest_framework/js/jquery-3.4.1.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/static/rest_framework/js/prettify-min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/status.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/templates/rest_framework/admin.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/templates/rest_framework/admin/detail.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/templates/rest_framework/admin/dict_value.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/templates/rest_framework/admin/list.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/templates/rest_framework/admin/list_value.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/templates/rest_framework/admin/simple_list_value.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/templates/rest_framework/api.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/templates/rest_framework/base.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/templates/rest_framework/docs/auth/basic.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/templates/rest_framework/docs/auth/session.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/templates/rest_framework/docs/auth/token.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/templates/rest_framework/docs/document.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/templates/rest_framework/docs/error.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/templates/rest_framework/docs/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/templates/rest_framework/docs/interact.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/templates/rest_framework/docs/langs/javascript-intro.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/templates/rest_framework/docs/langs/javascript.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/templates/rest_framework/docs/langs/python-intro.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/templates/rest_framework/docs/langs/python.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/templates/rest_framework/docs/langs/shell-intro.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/templates/rest_framework/docs/langs/shell.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/templates/rest_framework/docs/link.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/templates/rest_framework/docs/sidebar.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/templates/rest_framework/filters/base.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/templates/rest_framework/filters/ordering.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/templates/rest_framework/filters/search.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/templates/rest_framework/horizontal/checkbox.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/templates/rest_framework/horizontal/checkbox_multiple.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/templates/rest_framework/horizontal/dict_field.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/templates/rest_framework/horizontal/fieldset.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/templates/rest_framework/horizontal/form.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/templates/rest_framework/horizontal/input.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/templates/rest_framework/horizontal/list_field.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/templates/rest_framework/horizontal/list_fieldset.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/templates/rest_framework/horizontal/radio.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/templates/rest_framework/horizontal/select.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/templates/rest_framework/horizontal/select_multiple.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/templates/rest_framework/horizontal/textarea.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/templates/rest_framework/inline/checkbox.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/templates/rest_framework/inline/checkbox_multiple.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/templates/rest_framework/inline/dict_field.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/templates/rest_framework/inline/fieldset.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/templates/rest_framework/inline/form.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/templates/rest_framework/inline/input.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/templates/rest_framework/inline/list_field.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/templates/rest_framework/inline/list_fieldset.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/templates/rest_framework/inline/radio.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/templates/rest_framework/inline/select.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/templates/rest_framework/inline/select_multiple.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/templates/rest_framework/inline/textarea.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/templates/rest_framework/login.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/templates/rest_framework/login_base.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/templates/rest_framework/pagination/numbers.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/templates/rest_framework/pagination/previous_and_next.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/templates/rest_framework/raw_data_form.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/templates/rest_framework/schema.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/templates/rest_framework/vertical/checkbox.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/templates/rest_framework/vertical/checkbox_multiple.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/templates/rest_framework/vertical/dict_field.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/templates/rest_framework/vertical/fieldset.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/templates/rest_framework/vertical/form.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/templates/rest_framework/vertical/input.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/templates/rest_framework/vertical/list_field.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/templates/rest_framework/vertical/list_fieldset.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/templates/rest_framework/vertical/radio.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/templates/rest_framework/vertical/select.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/templates/rest_framework/vertical/select_multiple.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/templates/rest_framework/vertical/textarea.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/templatetags/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/templatetags/rest_framework.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/test.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/throttling.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/urlpatterns.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/urls.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/utils/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/utils/breadcrumbs.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/utils/encoders.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/utils/field_mapping.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/utils/formatting.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/utils/html.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/utils/humanize_datetime.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/utils/json.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/utils/mediatypes.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/utils/model_meta.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/utils/representation.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/utils/serializer_helpers.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/utils/urls.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/validators.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/versioning.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/views.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/viewsets.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/website/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/website/urls.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -383,11 +30,25 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/website/settings.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="459">
               <caret line="27" column="17" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/templates/cashtreats/home.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#0;n#div#0;n#body#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#p#1;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#1;n#p#1;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -462,7 +123,6 @@
         <option value="$PROJECT_DIR$/events/models.py" />
         <option value="$PROJECT_DIR$/templates/users/profile.html" />
         <option value="$PROJECT_DIR$/cashtreats/views.py" />
-        <option value="$PROJECT_DIR$/templates/cashtreats/home.html" />
         <option value="$PROJECT_DIR$/templates/blogs/blog_form.html" />
         <option value="$PROJECT_DIR$/templates/buy&amp;sell/post_form.html" />
         <option value="$PROJECT_DIR$/templates/events/events_post_form.html" />
@@ -482,6 +142,7 @@
         <option value="$PROJECT_DIR$/website/urls.py" />
         <option value="$PROJECT_DIR$/website/app.yaml" />
         <option value="$PROJECT_DIR$/website/settings.py" />
+        <option value="$PROJECT_DIR$/templates/cashtreats/home.html" />
       </list>
     </option>
   </component>
@@ -508,7 +169,13 @@
             <path>
               <item name="website" type="b2602c69:ProjectViewProjectNode" />
               <item name="website" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="website" type="b2602c69:ProjectViewProjectNode" />
               <item name="website" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="cashtreats" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -577,7 +244,14 @@
       <option name="project" value="LOCAL" />
       <updated>1589184162742</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="5-2020">
+      <created>1590747554761</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1590747554761</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TodoView" selected-index="4">
@@ -604,8 +278,8 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3285968" />
       <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49841017" weight="0.3321492" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49841017" visible="true" weight="0.25044405" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50158983" side_tool="true" weight="0.3321492" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49761525" visible="true" weight="0.25044405" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5023847" side_tool="true" visible="true" weight="0.25044405" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.3285968" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -664,7 +338,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="paginator work" />
-    <option name="LAST_COMMIT_MESSAGE" value="paginator work" />
+    <MESSAGE value="5-2020" />
+    <option name="LAST_COMMIT_MESSAGE" value="5-2020" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -992,19 +667,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/cashtreats/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="61" selection-start-line="61" selection-end-line="61" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#0;n#div#0;n#body#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h3#0;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#p#1;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#1;n#p#1;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/events/events_post_detail.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -1112,6 +774,18 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
           <caret line="27" column="17" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/cashtreats/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#0;n#div#0;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#p#1;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#1;n#p#1;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
