@@ -4,7 +4,7 @@
 {% load static %}
 
 
-  <title>{% block title %} H O M E {% endblock %}</title>
+  <title>{% block title %} Recruiters confirm delete {% endblock %}</title>
 
 {% block body %}
 <body class="container-fluid" style="background:linear-gradient(-120deg, #ba0c2f, #ffcd00, #c9c9c9);">
@@ -22,7 +22,7 @@
         </fieldset>
         <div class="form-group">
             <button class="btn btn-outline-danger" type="submit">Yes, Delete</button>
-                <a class="btn btn-outline-secondary" href="{% url 'friend-post-detail' object.slug %}">Cancel</a>
+                <a class="btn btn-outline-secondary" href="{% url 'recruiter-post-detail' object.slug %}">Cancel</a>
         </div>
     </form>
 </div>

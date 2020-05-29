@@ -17,10 +17,10 @@
     <div class="col-md-4 ">
       <div class="card-body">
         <div class="card-header"><h5 class="card-title"> {{object.title}}</h5>
-            <h4 class="text-title"><i class="fas fa-tags"></i>{{object.price}}</h4>
+            <h4 class="text-title"><i class="fas fa-tags"></i> {{object.price}}</h4>
         </div>
         <div class="card-body text-dark">
-        <h4 class="card-title"><i class="fas fa-map-marker-alt"></i> {{ object.location }} </h4>
+        <h4 class="card-title"><i class="fas fa-map-marker-alt"></i> {{ object.location }} </h4>
         </div>
       </div>
     </div>
@@ -43,16 +43,18 @@
 </p>
 <div class="collapse" id="collapseExample">
   <div class="card card-body">
-      <h5 class="text-primary"><i class="fas fa-phone"></i> {{object.contact}}</h5>
-      <h5 class="text-primary"><i class="fas fa-envelope-open"></i> {{object.email}}</h5>
+      <h6 class="text-primary"><i class="fas fa-phone"></i> {{object.contact}}</h6>
+      <h6 class="text-primary"><i class="fas fa-envelope-open"></i> {{object.email}}</h6>
   </div>
 </div>
-          <p class="card-text"><small class="text-muted"><i class="far fa-calendar-check"></i>  Created on {{object.date_posted|date:"F d, Y"}}</small></p>
+          <br><p class="card-text"><small class="text-muted"><i class="far fa-calendar-check"></i>  Created on {{object.date_posted|date:"F d, Y"}}</small></p>
+        <div class="fb-like" data-href="{{ request.build_absolute_uri }}" data-width="" data-layout="button_count" data-action="like" data-size="large" data-share="true"></div>
       </div>
+
     </div>
  <div class="card-header">          {% if object.author == user %}
-<a class="btn btn-secondary btn-sm mt-1 mb-1" href="{% url 'post-update' object.id %}"> Update</a>
-<a class="btn btn-danger btn-sm mt-1 mb-1" href="{% url 'post-delete' object.id %}"> Delete</a>
+<a class="btn btn-secondary btn-sm mt-1 mb-1" href="{% url 'post-update' object.slug %}"> Update</a>
+<a class="btn btn-danger btn-sm mt-1 mb-1" href="{% url 'post-delete' object.slug %}"> Delete</a>
    <p class="card-text"><small class="text-muted"><i class="far fa-calendar-check"></i>  Created on {{object.date_posted|date:"F d, Y"}}</small></p>
     {% endif %}</div>
 

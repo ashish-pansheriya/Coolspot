@@ -6,6 +6,41 @@
 </head>
 <body>
 
+ <h6 class="card-text"><small class="text-muted">{{posts.date_posted|date:"F d, Y"}}</small></h6>
+
+<nav class="navbar navbar-dark navbar-expand-lg bg-white border rounded-0 portfolio-navbar gradient" style="font-family: Lato, sans-serif; ">
+        <div class="container"><a class="navbar-brand logo" data-bs-hover-animate="tada" href="{% url 'home' %}" style="font-family: Lato, sans-serif;line-height: 32px;">Ca$H<i class="fas fa-gem"></i>Treat$<br></a><button data-toggle="collapse" class="navbar-toggler" data-target="#navbarNav"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            <div
+                class="collapse navbar-collapse" id="navbarNav">
+                <ul class="nav navbar-nav ml-auto">
+                    <li class="nav-item pulse animated" role="presentation"><a class="nav-link active" href="{% url 'friend-home' %}"><i class="fas fa-star-half"></i>Hire a friend&nbsp;<br></a></li>
+                    <li class="nav-item pulse animated" role="presentation"><a class="nav-link" href="{% url 'event-home' %}"><i class="fab fa-fort-awesome"></i><strong>&nbsp;Event's&nbsp;</strong><br></a></li>
+                    <li class="nav-item pulse animated" role="presentation"><a class="nav-link" href="{% url 'post-home' %}"><i class="fas fa-tags"></i><strong>&nbsp;Buy &amp; Sell</strong><br></a></li>
+
+
+
+                     <div class="dropdown"><button class="btn btn-secondary bg-primary border rounded border-white shadow dropdown-toggle" data-bs-hover-animate="rubberBand" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="font-family: Lato, sans-serif;background-color: rgb(95,125,247);padding: 5px;"><i class="fas fa-flag-checkered"></i>&nbsp;Add profile</button>
+            <div
+                class="dropdown-menu" style="color: rgb(136,140,248);">
+
+                <a class="dropdown-item" href="{% url 'friend-post-create' %}" style="color: rgb(33,152,253);"><i class="fas fa-star-half"></i>Add Hire a friend Profile</a>
+                <a class="dropdown-item" href="{% url 'event-post-create' %}" style="color: rgb(33,152,253);"><i class="fab fa-fort-awesome"></i>  Create Event</a>
+                <a class="dropdown-item" href="{% url 'post-create' %}" style="color: rgb(33,152,253);"><i class="fas fa-tags"></i> Add Buy &amp; Sell post</a>
+
+            </div>
+        </div>
+                    {% if user.is_authenticated %}
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="{% url 'profile' %}"> Profile </a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="{% url 'logout' %}"> Logout </a></li>
+                    {% else %}
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="{% url 'register' %}">  Register</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link active" href="{% url 'login' %}">Sign in&nbsp;<br></a></li>
+                    {% endif %}
+                </ul>
+        </div>
+
+        </div>
+    </nav>
 
       <div class="col-6">
         {{ formv.name|as_crispy_field }}

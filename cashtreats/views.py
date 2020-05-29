@@ -4,21 +4,22 @@ from django.shortcuts import redirect
 from .models import cashtreats
 from application.models import databank
 from friends.models import friends
-from rest_framework import viewsets
-from .serializers import rest
-
-class restframe(viewsets.ModelViewSet):
-    queryset = databank.objects.all()
-    serializer_class = rest
+from events.models import events
 
 
 
 def home(request):
+    eva = events.objects.all()
     if request.GET.get('q'):
         q = request.GET.get('q')
         data = friends.objects.filter(address__icontains=q)
+    context = {'eva':eva}
 
-    return render(request, 'cashtreats/home.html', )
+    users = {
+        'post': events.objects.all()
+    }
+
+    return render(request, 'cashtreats/home.html', users )
 
 def terms(request):
 
@@ -35,13 +36,3 @@ def services(request):
     return render(request, 'cashtreats/services.html', )
 
 
-# def upload(request,user_id):
-#     for afile in request.FILES.getlist('files'):
-#         user = UserProfile.objects.get(user_id=user_id)
-#         pic = UserProfile(request.POST or request.FILES)
-#         pic.image = afile
-#         pic.save()
-#         redirect('upload')
-#     else:
-#
-#         return render(request,'cashtreats/upload.html')

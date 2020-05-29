@@ -31,7 +31,7 @@
 
       <div class="card-body">
         <h3 class="card-title">About this Event</h3>
-        <p class="card-text">{{ object.description }}</p>
+        <p class="card-text">{{ object.description | safe}}</p>
 
 
         <small class="text-muted">Event topic</small> {{ object.topic }}
@@ -45,17 +45,18 @@
 </p>
 <div class="collapse" id="collapseExample">
   <div class="card card-body">
-      <h5 class="text-primary"><i class="fas fa-phone"></i> {{object.contact}}</h5>
-      <h5 class="text-primary"><i class="fas fa-envelope-open"></i> {{object.email}}</h5>
+      <h6 class="text-primary"><i class="fas fa-phone"></i> {{object.contact}}</h6>
+      <h6 class="text-primary"><i class="fas fa-envelope-open"></i> {{object.email}}</h6>
   </div>
 </div>
+        <br><div class="fb-like" data-href="{{ request.build_absolute_uri }}" data-width="" data-layout="button_count" data-action="like" data-size="large" data-share="true"></div>
       </div>
     </div>
   </div>
 
  <div class="card-header">          {% if object.author == user %}
-<a class="btn btn-secondary btn-sm mt-1 mb-1" href="{% url 'event-post-update' object.id %}"> Update</a>
-<a class="btn btn-danger btn-sm mt-1 mb-1" href="{% url 'event-post-delete' object.id %}"> Delete</a>
+<a class="btn btn-secondary btn-sm mt-1 mb-1" href="{% url 'event-post-update' object.slug %}"> Update</a>
+<a class="btn btn-danger btn-sm mt-1 mb-1" href="{% url 'event-post-delete' object.slug %}"> Delete</a>
    <p class="card-text"><small class="text-muted"><i class="far fa-calendar-check"></i>  Created on {{object.date_posted|date:"F d, Y"}}</small></p>
     {% endif %}</div>
 

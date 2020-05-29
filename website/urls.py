@@ -24,6 +24,8 @@ from django.conf import settings
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('', include('blogs.urls')),
+    path('', include('recruiter.urls')),
     path('', include('cashtreats.urls')),
     path('', include('events.urls')),
     path('', include('friends.urls')),
@@ -41,7 +43,7 @@ urlpatterns = [
     path('password-reset-complete/', auth_views.PasswordResetCompleteView.as_view(template_name='users/password_reset_complete.html'),
          name='password_reset_complete'),
 
-]
+]+static(settings.STATIC_URL,document_root=settings.STATIC_ROOT)
 
 
 if settings.DEBUG:

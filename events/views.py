@@ -20,8 +20,12 @@ BLOG_POST_PER_PAGE = 6
 class eventsearchview(View):
 
     def get(self,request,*args,**kwargs):
+        context = {}
+        query = ""
+        context['query'] = str(query)
         queryset=events.objects.all().order_by('-date_posted')
         query = request.GET.get('q')
+
         if query:
             queryset = queryset.filter(
                 Q(location__icontains=query) |
@@ -39,6 +43,7 @@ class eventsearchview(View):
         except EmptyPage:
             queryset = blog_posts_paginator.page(blog_posts_paginator.num_pages)
         context = {
+            'query': query,
             'queryset':queryset
         }
         return render(request, 'events/events_home.html', context )
@@ -54,6 +59,8 @@ class eventPostCreateView(LoginRequiredMixin, CreateView):
     fields = ['title', 'location', 'types', 'topic', 'starts', 'ends', 'image', 'description', 'organiser',
               'description2', 'tickets', 'contact', 'email']
     template_name = 'events/events_post_form.html'
+    slug_field = 'slug'
+
 
     def form_valid(self, form):
         form.instance.author = self.request.user  # login must be required to run function with author

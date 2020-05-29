@@ -86,7 +86,9 @@ BLOG_POST_PER_PAGE = 8
 class Searchview(View):
 
     def get(self, request, *args, **kwargs):
-
+        context = {}
+        query = ""
+        context['query'] = str(query)
         queryset = friends.objects.all().order_by('-date_posted') # ordering latest first
         query = request.GET.get('q')
         queryradio = request.GET.get('gender')
@@ -113,6 +115,7 @@ class Searchview(View):
             queryset = blog_posts_paginator.page(blog_posts_paginator.num_pages)
 
         context = {
+            'query':query,
             'queryset': queryset,
         }
         return render(request, 'friends/friends_home.html', context )

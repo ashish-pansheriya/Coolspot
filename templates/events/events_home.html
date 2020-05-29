@@ -11,7 +11,7 @@
 
 <form method='GET' style="margin: 10px auto;" action="{% url 'event-home' %}">
 <div class="input-group" style="width: 70%; margin: 10px auto;">
-    <input type="text"  name='q'  class="form-control" placeholder="Search city Example: Amsterdam .. where you are looking an event .." style="padding-left: 2.375rem;">
+    <input type="text"  name='q' id="id_q" class="form-control" placeholder="Search city Example: Amsterdam .. where you are looking an event .." style="padding-left: 2.375rem;">
     <div class="input-group-append">
         <button class="btn btn-danger" type='submit' style="border-radius: 1px 5px 5px 1px;" type="button">
         <i class="fa fa-search"></i>
@@ -19,7 +19,14 @@
     </div>
 </div>
 </form>
-
+   <div class="container text-center text-info">
+  <h5>{% if queryset %} {% else %} Your search - {{query}} - did not found. {% endif %} </h5>
+   </div>
+{% if query %}
+<script type="text/javascript">
+    document.getElementById("id_q").value = "{{query}}";
+</script>
+{% endif %}
 <div class="row mx-auto" style="margin-top: 22px;" >
 
     {% for posts in queryset %}
@@ -29,10 +36,10 @@
                  <div class="card bg-light mb-5 mx-auto" style="max-width: 940px;"  >
                      <div class="row no-gutters">
                         <div class="col-md-12" >
-                             <a href="{% url 'event-post-detail' posts.id %}"><img src="media/{{ posts.image }}" class="card-img" style="width: 100%; height: 50vh; object-fit: cover;" alt="..."></a>
+                             <a href="{% url 'event-post-detail' posts.slug %}"><img src="media/{{ posts.image }}" class="card-img" style="width: 100%; height: 50vh; object-fit: cover;" alt="..."></a>
                         </div>
                         <div class="col-md-12">
-                            <a class="custom-card" style="color: #212529; text-decoration: none;" href="{% url 'event-post-detail' posts.id %}">
+                            <a class="custom-card" style="color: #212529; text-decoration: none;" href="{% url 'event-post-detail' posts.slug %}">
                             <div class="card-body">
                                 <table class="table table-borderless text-info">
   <tbody>
@@ -65,7 +72,12 @@
     {% endfor %}
 </div>
 <div class="d-flex justify-content-center">{% include 'cashtreats/blog_post_pagination.html' with queryset=queryset %}</div>
-
+<div class='container-fluid'>
+    <h5>
+        <p><h2>Join the event world together through real expectancy</h2></p><br>
+<p><h5>Coolspot is a global self-service for live experiences that allows anyone to create, share, find and attend events that fuel their passions and enrich their lives. From music festivals, marathons, conferences, community rallies, and fundraisers, to gaming competitions and air guitar contests. Our mission is to bring the world together through real expectancy.
+    </h5></p>
+</div>
 </body>
 {% include 'cashtreats/footer-sort.html' %}
 {% endblock %}

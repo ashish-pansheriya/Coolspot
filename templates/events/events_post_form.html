@@ -5,27 +5,73 @@
 {% load crispy_forms_tags %}
 
 <head>
-  <title>{% block title %} Update event {% endblock %}</title>
+  <title>{% block title %} Create event {% endblock %}</title>
 </head>
 {% block body %}
 <body style="background-color: #FA8BFF; background-image: linear-gradient(315deg, #FA8BFF 0%, #2BD2FF 52%, #2BFF88 90%);">
+<br>
 
+<form method="POST" enctype="multipart/form-data">
+<div class="container"><br>
+  <h3>Add Event's Details </h3>
+  <p>You can edit it again whenever you want</p>
 
-<div class="container-fluid" style="background-color: #FA8BFF; background-image: linear-gradient(315deg, #FA8BFF 0%, #2BD2FF 52%, #2BFF88 90%);>
-
-<div class="content-saction">
-
-    <form method="POST" enctype="multipart/form-data">
+  <div class="row">
         {% csrf_token %}
-        <fieldset class="form-group">
-            <legend class="border-bottom mb-4">Blog Post</legend>
-            {{ form|crispy }}
-        </fieldset>
-        <div class="form-group">
-            <button class="btn btn-outline-info" type="submit">Post</button>
-        </div>
-    </form>
+    <div class="col-sm-6" >
+{{ form.title|as_crispy_field }}
+    </div>
+    <div class="col-sm-6" >
+{{ form.location|as_crispy_field }}
+    </div>
+          <div class="col-sm-6">
+{{form.types|as_crispy_field  }}
+    </div>
+
+
+    <div class="col-sm-6" >
+{{ form.topic|as_crispy_field }}
+    </div>
+
+                      <div class="col-sm-12">
+            {{ form.description|as_crispy_field | safe }}
+                {{form.media}}
+    </div>
+
+          <div class="col-sm-6">
+{{ form.starts|as_crispy_field }}
+    </div>
+          <div class="col-sm-6">
+{{ form.ends|as_crispy_field }}
+    </div>
+                <div class="col-sm-6">
+{{ form.organiser|as_crispy_field }}
+    </div>
+                <div class="col-sm-6">
+{{ form.description2|as_crispy_field }}
+    </div>
+                      <div class="col-sm-6">
+{{ form.tickets|as_crispy_field }}
+    </div>
+
+                      <div class="col-sm-6">
+{{ form.email|as_crispy_field }}
+    </div>
+                            <div class="col-sm-6">
+{{ form.contact|as_crispy_field }}
+    </div>
+       <div class="col-sm-6" >
+{{ form.image|as_crispy_field }}
+    </div>
+
+                <div class="col-sm-6">
+<button class="btn btn-outline-info btn-lg" type="submit">Post</button>
+    </div>
+
+      </div>
 </div>
+</form>
+
 </div>
 </body>
 {% endblock %}

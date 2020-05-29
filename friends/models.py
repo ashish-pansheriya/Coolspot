@@ -6,7 +6,8 @@ from django import forms
 from django.contrib.auth.models import User
 from django.urls import reverse
 from application .models import databank
-
+from django.db.models.signals import  pre_save
+from django.utils.text import slugify
 
 
 
@@ -68,14 +69,32 @@ class friends(models.Model):
     contact = models.IntegerField(null=True, verbose_name='Phone Number')
     email = models.EmailField(max_length=50, null=True, verbose_name='Email id')
     photo = models.ImageField(upload_to='media', null=True, verbose_name='Profile Picture,')
-
+    slug = models.SlugField(unique=True,)
 
     def __str__(self):
         return str(self.name)
 
     def get_absolute_url(self):
-        return reverse('friend-post-detail', kwargs={'pk': self.pk})
+        return reverse('friend-post-detail', kwargs={'slug': self.slug})
 
+
+def create_slug(instance, new_slug=None):
+    slug = slugify(instance.name)
+    if new_slug is not None:
+        slug = new_slug
+    qs = friends.objects.filter(slug=slug).order_by("-id")
+    exists = qs.exists()
+    if exists:
+        new_slug = "%s-%s" % (slug, qs.first().id)
+        return create_slug(instance, new_slug=new_slug)
+    return slug
+
+def pre_save_post_receiver(sender, instance, *args, **kwargs):
+    if not instance.slug:
+        instance.slug = create_slug(instance)
+
+
+pre_save.connect(pre_save_post_receiver, sender=friends)
 
 class frienddata(forms.ModelForm):
 

@@ -8,23 +8,23 @@
 
 {% block body %}
 <body style="background:linear-gradient(-120deg, #ba0c2f, #ffcd00, #c9c9c9);">
-
-<div class="card">
-  <!--img src="{{user.profile.image.url}}" class="card-img-top" alt="image !!"-->
-    <!--img src="{% static "assets/img/naturebar.png" %}" alt="My image"/-->
-</div>
-  <div class="row p-3 mb-1 bg-dark text-white">
-      <div class="col"><h5>Username: {{ user.username }}</h5></div>
-      <hr class="my-4">
-      <div class="col"><h5>Email id: {{ user.email }}</h5></div>
-      <hr class="my-4">
-      <div class="col"><h5><small class="text-muted ml-2">
+<br>
+<ul class="nav nav-pills nav-fill text-white">
+  <li class="nav-item">
+    Username: {{ user.username }}</h5>
+  </li>
+  <li class="nav-item">
+    <h5>Email id: {{ user.email }}</h5>
+  </li>
+  <li class="nav-item">
+    <h6><small class="text-muted ml-2">
                 <a href="{% url 'password_reset' %}">Forgot Password?</a>
-                            </small></h5>
-      </div>
-      <hr class="my-4">
+                            </small></h6>
+  </li>
 
-  </div>
+</ul>
+
+
 
 
     {% for posts in queryset %}
@@ -37,10 +37,10 @@
                  <div class="card bg-light mb-5 mx-auto"><div class="p-3 mb-1 bg-dark text-white"><h5 style="text-align:right">Hire a friend Profile</h5></div>
                      <div class="row no-gutters">
                         <div class="col-md-12" >
-                             <a href="{% url 'friend-post-detail' posts.id %}"><img src="{{ posts.photo.url }}" style="width: 100%; height: 50vh; object-fit: contain   ;" class="card-img" alt="..."></a>
+                             <a href="{% url 'friend-post-detail' posts.slug %}"><img src="{{ posts.photo.url }}" style="width: 100%; height: 50vh; object-fit: contain   ;" class="card-img" alt="..."></a>
                         </div>
                         <div class="col-md-12">
-                            <a class="custom-card" style="color: #212529; text-decoration: none;" href="{% url 'friend-post-detail' posts.id %}">
+                            <a class="custom-card" style="color: #212529; text-decoration: none;" href="{% url 'friend-post-detail' posts.slug %}">
                                 <div class="card-body" style="padding:15px 5px 1px 15px;">
   <table class="table table-borderless text-info">
   <tbody>
@@ -78,6 +78,44 @@
     {% endfor %}
 
 
+
+{% for posts in blogs %}
+{% if posts.author == user %}
+
+<div class="row mx-auto" style="margin-top: 22px;" >
+    <div class="col-md-4">
+        <div class="mx-auto" >
+            <div class="mx-auto" >
+                 <div class="card bg-light mb-5 ">
+                     <div class="p-3 mb-1 bg-dark text-white"><h5 style="text-align:right">Blog Case</h5></div>
+                                          <div class="row no-gutters">
+                        <div class="col-md-12" >
+                             <a href="{% url 'blog-detail' posts.slug %}"><img src="{{ posts.photo.url }}" class="card-img" style="width: 100%; height: 30ex; object-fit: cover;" alt="..."></a>
+                        </div>
+
+                            <div class="col-md-12">
+                                <a class="custom-card" style="color: #212529; text-decoration: none;" href="{% url 'blog-detail' posts.slug %}">
+                                    <div class="card-body" style="width: 100%;height:300px; white-space:wrap; overflow: hidden; text-overflow:auto; ">
+                                        <h6 class="text-secondary"><i class="fas fa-bookmark"></i> {{posts.category|truncatewords:8}}</h6><br>
+
+                                        {{posts.content|truncatewords:50 | safe}}</p>
+
+                                    </div>
+                                </a>
+                            </div>
+                     </div>
+                </div>
+            </div>
+        </div>
+    </div>
+        </div>
+
+{% endif %}
+{% endfor %}
+
+
+
+
 {% for posts in eva %}
 {% if posts.author == user %}
 
@@ -88,10 +126,10 @@
                  <div class="card bg-light mb-5 mx-auto"><div class="p-3 mb-1 bg-dark text-white"><h5 style="text-align:right">Events Profile</h5></div>
                      <div class="row no-gutters">
                         <div class="col-md-12" >
-                             <a href="{% url 'event-post-detail' posts.id %}"><img src="{{ posts.image.url }}" class="card-img" style="width: 100%; height: 50vh; object-fit: cover;" alt="..."></a>
+                             <a href="{% url 'event-post-detail' posts.slug %}"><img src="{{ posts.image.url }}" class="card-img" style="width: 100%; height: 50vh; object-fit: cover;" alt="..."></a>
                         </div>
                         <div class="col-md-12">
-                            <a class="custom-card" style="color: #212529; text-decoration: none;" href="{% url 'event-post-detail' posts.id %}">
+                            <a class="custom-card" style="color: #212529; text-decoration: none;" href="{% url 'event-post-detail' posts.slug %}">
                             <div class="card-body">
                                 <table class="table table-borderless text-info">
   <tbody>
@@ -131,14 +169,14 @@
     <div class="col-md-4">
         <div class="mx-auto" >
             <div class="mx-auto" >
-                 <div class="card bg-light mb-5 "><div class="p-3 mb-1 bg-dark text-white"><h5 style="text-align:right">Buy&Sell Profiles</h5></div>
+                 <div class="card bg-light mb-5 "><div class="p-3 mb-1 bg-dark text-white"><h5 style="text-align:right">Buy || Rent Profiles</h5></div>
                      <div class="row no-gutters">
                         <div class="col-md-12" >
-                             <a href="{% url 'post-detail' posts.id %}"><img src="{{ posts.photo.url }}" class="card-img" style="width: 100%; height: 30ex; object-fit: cover;" alt="..."></a>
+                             <a href="{% url 'post-detail' posts.slug %}"><img src="{{ posts.photo.url }}" class="card-img" style="width: 100%; height: 30ex; object-fit: cover;" alt="..."></a>
                         </div>
 
                             <div class="col-md-12">
-                                <a class="custom-card" style="color: #212529; text-decoration: none;" href="{% url 'post-detail' posts.id %}">
+                                <a class="custom-card" style="color: #212529; text-decoration: none;" href="{% url 'post-detail' posts.slug %}">
                                 <div class="card-body">
                                     <h6 class="text-info"> {{posts.title|truncatewords:8}}</h6>
                                     <h6 class="text-success"><i class="fas fa-tags"></i>{{posts.price|truncatewords:10}}</h6>
@@ -156,6 +194,38 @@
 {% endfor %}
 
 
+
+{% for posts in recrus %}
+{% if posts.author == user %}
+
+<div class="row mx-auto" style="margin-top: 22px;" >
+    <div class="col-md-4">
+        <div class="mx-auto" >
+            <div class="mx-auto" >
+                 <div class="card bg-light mb-5 "><div class="p-3 mb-1 bg-dark text-white"><h5 style="text-align:right">Recruiters Data</h5></div>
+                     <div class="row no-gutters">
+                        <div class="col-md-6" >
+                             <a href="{% url 'recruiter-post-detail' posts.slug %}"><img src="media/{{ posts.image }}" class="img-thumbnail" style="width: 100%; height: 25vh; object-fit: contain;" alt="..."></a>
+                        </div>
+                        <div class="col-md-6">
+                            <a class="custom-card" style="color: #212529; text-decoration: none;" href="{% url 'recruiter-post-detail' posts.slug %}">
+                                <div class="card-body" style="padding:5px">
+                                    <h6 class="text-info">  {{ posts.name |truncatewords:20}} </h6>
+                                                             {{ posts.designation |truncatewords:20}} <br>
+                                                    <i class="far fa-building"></i> <a class="text-info" style="color: #212529; text-decoration: none;" href="{% url 'recruiter-post-detail' posts.slug %}">{{ posts.company |truncatewords:3}}</a><br>
+                                            <p > <i class="fas fa-map-marker-alt"></i>{{ posts.location |truncatewords:3}}</p>
+
+                                </div>
+                        </div>
+                     </div>
+                </div>
+            </div>
+        </div>
+    </div>
+        </div>
+
+{% endif %}
+{% endfor %}
 
 <!--
     {% if object.author == user %}
@@ -183,4 +253,5 @@
 
 
 </body>
+{% include 'cashtreats/footer-sort.html' %}
 {% endblock %}

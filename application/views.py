@@ -28,8 +28,11 @@ BLOG_POST_PER_PAGE = 12
 class postsearchview(View):
 
     def get(self, request, *args, **kwargs):
+        context = {}
+        query = " "
         queryset=databank.objects.all().order_by('-date_posted')
         query = request.GET.get('q')
+        context['query'] = str(query)
         if query:
             queryset=queryset.filter(
                 Q(title__icontains=query) |
@@ -47,6 +50,7 @@ class postsearchview(View):
             queryset = blog_posts_paginator.page(blog_posts_paginator.num_pages)
 
         context = {
+            'query': query,
             'queryset':queryset
         }
         return render(request, 'buy&sell/post_home.html', context)
@@ -54,7 +58,7 @@ class postsearchview(View):
 class PostDetailView(DetailView):
     model = databank
     template_name = 'buy&sell/post_detail.html'
-
+    slug_field = 'slug'
 
 class PostCreateView(LoginRequiredMixin, CreateView ):
     model = databank

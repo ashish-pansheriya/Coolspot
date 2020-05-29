@@ -2,8 +2,9 @@ from django.db import models
 from django.utils import timezone
 from django.contrib.auth.models import User
 from django.urls import reverse
-
-
+from ckeditor.fields import RichTextField
+from django.db.models.signals import  pre_save
+from django.utils.text import slugify
 # Create your models here.
 
 
@@ -55,20 +56,41 @@ class events(models.Model):
     location = models.CharField(verbose_name='Location', max_length=200)
     types = models.CharField(verbose_name='Event Type', choices=eventtype, default='01', null=True, max_length=50)
     topic = models.CharField(verbose_name='Event Topic', choices=eventtopic, default='01', null=True, max_length=50)
-    starts = models.CharField(verbose_name='Event date & time, Starts', max_length=200, null=True)
-    ends = models.CharField(verbose_name='Event date & time, Ends', max_length=200, null=True)
     image = models.ImageField(verbose_name='Event Image', upload_to='media')
     date_posted = models.DateTimeField(default=timezone.now, verbose_name='Posted')
-    description = models.CharField(verbose_name='Event Description', max_length=200)
+    description = RichTextField()
+    starts = models.CharField(verbose_name='Event date & time, Starts', max_length=200, null=True)
+    ends = models.CharField(verbose_name='Event date & time, Ends', max_length=200, null=True)
     author = models.ForeignKey(User, on_delete=models.CASCADE, null=True, verbose_name='User', max_length=40)
     organiser = models.CharField(verbose_name='Organiser Name', null=True, max_length=200)
     description2 = models.CharField(verbose_name='Organiser Description', null=True,  max_length=200)
     tickets = models.CharField(verbose_name='Tickets info', null=True, max_length=50)
     contact = models.IntegerField(null=True, verbose_name='Phone Number')
     email = models.EmailField(max_length=50, null=True, verbose_name='Email id')
+    slug = models.SlugField(unique=True,)
+
 
     def __str__(self):
         return self.title
 
     def get_absolute_url(self):
-        return reverse('event-post-detail', kwargs={'pk': self.pk})
+        return reverse('event-post-detail', kwargs={'slug': self.slug})
+
+
+def create_slug(instance, new_slug=None):
+    slug = slugify(instance.title)
+    if new_slug is not None:
+        slug = new_slug
+    qs = events.objects.filter(slug=slug).order_by("-id")
+    exists = qs.exists()
+    if exists:
+        new_slug = "%s-%s" % (slug, qs.first().id)
+        return create_slug(instance, new_slug=new_slug)
+    return slug
+
+def pre_save_post_receiver(sender, instance, *args, **kwargs):
+    if not instance.slug:
+        instance.slug = create_slug(instance)
+
+
+pre_save.connect(pre_save_post_receiver, sender=events)

@@ -5,15 +5,15 @@
 {% load crispy_forms_tags %}
 
 <head>
-  <title>{% block title %} Update post {% endblock %}</title>
+  <title>{% block title %} Update blog {% endblock %}</title>
 </head>
 {% block body %}
 <body style="background-color: #FA8BFF; background-image: linear-gradient(315deg, #FA8BFF 0%, #2BD2FF 52%, #2BFF88 90%);">
 <br>
 
 <form method="POST" enctype="multipart/form-data">
-<div class="container"><br>
-  <h3>Write your product descriptions </h3>
+<div class="container">
+  <h3>Write your favorite blog </h3>
   <p>You can edit it again whenever you want</p>
 
   <div class="row">
@@ -21,33 +21,27 @@
     <div class="col-sm-6" >
 {{ form.title|as_crispy_field }}
     </div>
-    <div class="col-sm-6" >
+    <div class="col-sm-5" >
 {{ form.category|as_crispy_field }}
     </div>
           <div class="col-sm-12">
-{{form.content|as_crispy_field  }}
+              <p>Write your Blog with custom text editor*</p>
+{{form.content | safe}}
+            {{form.media}}
     </div>
 
-
-    <div class="col-sm-6" >
-{{ form.location|as_crispy_field }}
+    <div class="col-sm-6"><br>
+{{ form.name|as_crispy_field }}
     </div>
-          <div class="col-sm-6" >
-{{ form.contact|as_crispy_field }}
-    </div>
-                      <div class="col-sm-6">
+    <div class="col-sm-6" ><br>
 {{ form.email|as_crispy_field }}
     </div>
-          <div class="col-sm-6">
-{{ form.owner|as_crispy_field }}
+          <div class="col-sm-6" >
+{{ form.location|as_crispy_field }}
     </div>
           <div class="col-sm-6">
-{{ form.price|as_crispy_field }}
-    </div>
-                <div class="col-sm-8">
 {{ form.photo|as_crispy_field }}
     </div>
-
                 <div class="col-sm-6">
 <button class="btn btn-outline-info btn-lg" type="submit">Post</button>
     </div>
@@ -56,6 +50,6 @@
 </div>
 </form>
 
-</div>
+
 </body>
 {% endblock %}

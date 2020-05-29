@@ -25,7 +25,7 @@ SECRET_KEY = 'rk0#a3!uwq12+5qm2f91&b-a$vk!)i^t=dnb!=e+cbrpjlf7t1'
 DEBUG = True
 
 ALLOWED_HOSTS = []
-
+#'coolspot.co.in'
 # Application definition
 # os.environ.get('INSTALLED_APPS '),
 INSTALLED_APPS = [
@@ -44,7 +44,8 @@ INSTALLED_APPS = [
     'friends',
     'events',
     'cashtreats',
-    'rest_framework',
+    'recruiter',
+    'blogs',
     'django_filters',
     # All auth
     'allauth',
@@ -54,10 +55,8 @@ INSTALLED_APPS = [
     'allauth.socialaccount.providers.facebook',
     'allauth.socialaccount.providers.google',
     # Working with Images
-    'imagekit',
-
-
-
+    #text editor
+    'ckeditor',
 ]
 
 
@@ -101,6 +100,7 @@ DATABASES = {
         'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
     }
 }
+
 
 # Password validation
 # https://docs.djangoproject.com/en/3.0/ref/settings/#auth-password-validators

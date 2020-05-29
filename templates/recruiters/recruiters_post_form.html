@@ -3,16 +3,17 @@
 {% include 'nav.html' %}
 {% load static %}
 {% load crispy_forms_tags %}
-{% csrf_token %}
+
 <head>
-  <title>{% block title %} Update profile {% endblock %}</title>
+  <title>{% block title %} Add Recruiter {% endblock %}</title>
 </head>
 {% block body %}
 <body style="background-color: #FA8BFF; background-image: linear-gradient(315deg, #FA8BFF 0%, #2BD2FF 52%, #2BFF88 90%);">
 <br>
+
 <form method="POST" enctype="multipart/form-data">
 <div class="container"><br>
-  <h3>Write your introduction </h3>
+  <h3>Add Job Description with Recruiter Details </h3>
   <p>You can edit it again whenever you want</p>
 
   <div class="row">
@@ -21,44 +22,52 @@
 {{ form.name|as_crispy_field }}
     </div>
     <div class="col-sm-6" >
-{{ form.age|as_crispy_field }}
+{{ form.designation|as_crispy_field }}
     </div>
-          <div class="col-sm-12">
-{{form.activities|as_crispy_field  }}
+          <div class="col-sm-6">
+{{form.starts|as_crispy_field  }}
+    </div>
 
-    </div>
 
-    <div class="col-sm-6">
-{{ form.gender|as_crispy_field }}
-    </div>
     <div class="col-sm-6" >
-{{ form.body|as_crispy_field }}
+{{ form.ends|as_crispy_field }}
     </div>
-          <div class="col-sm-6" >
-{{ form.height|as_crispy_field }}
+
+                      <div class="col-sm-6">
+            {{ form.company|as_crispy_field  }}
+
+    </div>
+
+
+                <div class="col-sm-6">
+{{ form.location|as_crispy_field }}
+    </div>
+                <div class="col-sm-6">
+{{ form.job_title|as_crispy_field }}
     </div>
                       <div class="col-sm-6">
-{{ form.fees|as_crispy_field }}
-    </div>
-          <div class="col-sm-12">
-{{ form.about|as_crispy_field }}
-    </div>
-                <div class="col-sm-6">
-{{ form.language|as_crispy_field }}
-    </div>
-                <div class="col-sm-6">
-{{ form.address|as_crispy_field }}
+{{ form.job_details|as_crispy_field }}
     </div>
 
-                <div class="col-sm-6">
+                      <div class="col-sm-6">
+{{ form.job_exp|as_crispy_field }}
+    </div>
+                            <div class="col-sm-6">
+{{ form.skill|as_crispy_field }}
+    </div>
+      <div class="col-sm-6">
+{{ form.industry|as_crispy_field }}
+    </div>
+       <div class="col-sm-6" >
 {{ form.contact|as_crispy_field }}
     </div>
-                <div class="col-sm-6">
+       <div class="col-sm-6" >
 {{ form.email|as_crispy_field }}
+    </div> <div class="col-sm-6">
+{{ form.image|as_crispy_field }}
     </div>
-                      <div class="col-sm-6">
-{{ form.photo|as_crispy_field }}
-    </div>
+
+
                 <div class="col-sm-6">
 <button class="btn btn-outline-info btn-lg" type="submit">Post</button>
     </div>
@@ -66,7 +75,6 @@
       </div>
 </div>
 </form>
-
 
 </div>
 </body>

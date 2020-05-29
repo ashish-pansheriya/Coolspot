@@ -15,10 +15,10 @@ urlpatterns = [
     path('stuff', filter, name='stuff'),
     path('friend-home', Searchview.as_view(), name='friend-home'),
 #    path('friend-home', friendPostListView.as_view(), name='friend-home'),
-    path('friend/<int:pk>/', friendPostDetailView.as_view(), name='friend-post-detail'),
+    path('friends/<slug:slug>/', friendPostDetailView.as_view(), name='friend-post-detail'),
     path('friend/new/', friendPostCreateView.as_view(), name='friend-post-create'),
-    path('friend/<int:pk>/update/', friendPostUpdateView.as_view(), name='friend-post-update'),
-    path('friend/<int:pk>/delete/', friendPostDeleteView.as_view(), name='friend-post-delete'),
+    path('friend/<slug:slug>/update/', friendPostUpdateView.as_view(), name='friend-post-update'),
+    path('friend/<slug:slug>/delete/', friendPostDeleteView.as_view(), name='friend-post-delete'),
 
 
 
