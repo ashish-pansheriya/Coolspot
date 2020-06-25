@@ -8,10 +8,12 @@
   <title>{% block title %}Friends Home {% endblock %}</title>
 </head>
 {% block body %}
-<body style="background:linear-gradient(120deg, #414b56, #00a2e1);">
+<body style="background-color: #21D4FD;
+background-image: linear-gradient(180deg, #21D4FD 0%, #B721FF 100%);
+">
 
 <form method='GET' style="margin: 10px auto;" action="{% url 'friend-home' %}">
-<div class="input-group" style="width: 70%; margin: 10px auto;">
+<div class="input-group text-center  " style="width: 70%; margin: 10px auto;" >
     <input type="text"  name='q' id="id_q" class="form-control" placeholder="Search city Example: London .. where you are looking a friend .." style="padding-left: 2.375rem;">
     <div class="input-group-append">
         <button class="btn btn-danger" type='submit' style="border-radius: 1px 5px 5px 1px;" type="button">
@@ -19,10 +21,12 @@
       </button>
     </div>
 </div>
-<div class="text-center" style="background:linear-gradient(120deg, #414b56, #00a2e1); width: 100%">
-    <input type="radio" style="height:16px; width:16px; vertical-align: middle;" name="all" value="m"> All <i class="fas fa-venus-mars"></i>
-    <input type="radio" style="height:16px; width:16px; vertical-align: middle;" name="gender" value="Female"> Female <i class="fas fa-venus"></i>
-    <input type="radio" style="height:16px; width:16px; vertical-align: middle;" name="gender" value="Male"> Male <i class="fas fa-mars"></i>
+<div class="text-center text-white" style="background-color: #21D4FD;
+background-image: linear-gradient(180deg, #21D4FD 0%, #21d4fd 100%);
+; width: 100%">
+    <input type="radio" checked="checked" style="height:18px; width:18px; vertical-align: middle; " name="all" value="m">  All <i class="fas fa-venus-mars"></i>       
+    <input type="radio" style="height:18px; width:18px; vertical-align: middle;" name="gender" value="Female">  Female <i class="fas fa-venus"></i>       
+    <input type="radio" style="height:18px; width:18px; vertical-align: middle;" name="gender" value="Male">  Male <i class="fas fa-mars"></i>       
 </div>
 </form>
    <div class="container text-center text-info">
@@ -85,14 +89,14 @@
 </div>
 <div class="d-flex justify-content-center">{% include 'cashtreats/blog_post_pagination.html' with queryset=queryset %}</div>
 
-<div>
+<div class='container-fluid text-white' >
     <hr class="my-4">
          <div class="container-fluid">
             <div class="d-flex justify-content-center">
                 <h2 style="text-align:center"><i class="fas fa-star-half"></i>People are using Hire a buddy for all kinds of activities:</h2>
             </div>
     <hr class="my-4">
-            <div class="container-fluid justify-content-center">
+            <div class="container-fluid justify-content-center ">
                 <div class="row">
                 <div class="col-sm-3 justify-content-center">
                 <ul class="list-group">
@@ -158,7 +162,7 @@
             </div>
             </div><br>
 <p class="lead text-center">
-    <a class="btn btn-dark btn-lg border-pretty" href="{% url 'friend-home' %}" role="button" >Hire a Friend <i class="icon ion-android-arrow-forward"></i></a>
+
 </p>
         </div></div>
 

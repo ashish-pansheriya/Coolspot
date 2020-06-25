@@ -44,6 +44,7 @@ class friends(models.Model):
     )
     fee = (
         ('negotiable', 'negotiable'),
+        ('$0-$5 hour', '$0-$5 hour'),
         ('$10 hour', '$10 hour'),
         ('$20 hour', '$20 hour'),
         ('$30 hour', '$30 hour'),

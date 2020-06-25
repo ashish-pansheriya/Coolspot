@@ -147,6 +147,8 @@ STATICFILES_DIRS = [
     '/var/www/static/',
 ]
 
+
+
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 MEDIA_URL = '/media/'
 
@@ -168,6 +170,10 @@ EMAIL_HOST_PASSWORD = 'bovznepqepacdvkw'
 
 SITE_ID = 1
 
+
+
+#STRIPE_PUBLISHABLE_KEY = 'pk_live_51GwgqWHXgnSZuBLc1oBSaokwk3v06ALRumcxvUfwzDus6mR7acRA0k9DUXtcg9u6nOqwHYOjuTinJEXevA13Ebwi00C9Kex9r6'
+#STRIPE_SECRET_KEY = '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'
 # EMAIL_HOST_USER = os.environ.get('EMAIL_USER')
 # EMAIL_HOST_PASSWORD = os.environ.get('EMAIL_PASS')
 # bovznepqepacdvkw

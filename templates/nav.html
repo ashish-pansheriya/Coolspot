@@ -10,21 +10,23 @@
                 class="collapse navbar-collapse" id="navbarNav">
 
                 <ul class="nav navbar-nav ml-auto">
-                    <li class="nav-item dropdown" title="Hire a buddy for fun activites"><a class="dropdown-toggle nav-link" data-toggle="dropdown" aria-expanded="false" href="#"><i class="fas fa-star-half"></i>  Hire a Buddy</a>
+                    <!--li class="nav-item dropdown" title="Hire a buddy for fun activites"><a class="dropdown-toggle nav-link" data-toggle="dropdown" aria-expanded="false" href="#"><i class="fas fa-star-half"></i>  Hire a Buddy</a>
                         <div class="dropdown-menu" role="menu">
                             <a class="dropdown-item" role="presentation" href="{% url 'friend-home' %}"><i class="fas fa-street-view"></i>&nbsp;<strong>  Search Buddy</strong></a>
                             <a class="dropdown-item" role="presentation" href="{% url 'recruiter-home' %}"><i class="fas fa-id-badge"></i>  Recruiters<br></a></div>
-                    </li>
+                    </li-->
                     <li class="nav-item pulse animated" role="presentation">
-                        <a class="nav-link" href="{% url 'event-home' %}" title="Look for events near by you"><i class="fab fa-fort-awesome"></i><strong>  Event's&nbsp;</strong><br></a></li>
+                        <a class="nav-link" href="{% url 'friend-home' %}" title="Look for the friends anywhere"><i class="fas fa-star-half"></i><strong> Hire a friend&nbsp;</strong><br></a></li>
                     <li class="nav-item pulse animated" role="presentation">
-                        <a class="nav-link" href="{% url 'post-home' %}" title="Things near by you for sell"><i class="fas fa-tags"></i><strong>  Buy || Rent</strong><br></a></li>
+                        <a class="nav-link" href="{% url 'event-home' %}" title="Look for the events near by you"><i class="fab fa-fort-awesome"></i><strong>  Event's&nbsp;</strong><br></a></li>
+                    <li class="nav-item pulse animated" role="presentation">
+                        <a class="nav-link" href="{% url 'post-home' %}" title="Things near by you for sell"><i class="fas fa-tags"></i><strong>  Buy&Sell</strong><br></a></li>
                     <li class="nav-item dropdown" title="Create your post ">
                         <a class="dropdown-toggle nav-link" data-toggle="dropdown" aria-expanded="false" href="#"><i class="fas fa-flag-checkered"></i>  Create&nbsp;</a>
                         <div class="dropdown-menu" role="menu">
-                            <a class="dropdown-item" role="presentation" href="{% url 'friend-post-create' %}" style="color: rgb(33,152,253);"><i class="fa fa-star-half"></i>⁪  Create buddy profile</a>
-                            <a class="dropdown-item" role="presentation" href="{% url 'post-create' %}" style="color: rgb(33,152,253);"><i class="fa fa-tags"></i>⁪  Post Buy || Rent ad</a>
-                            <a class="dropdown-item" role="presentation" href="{% url 'recruiter-post-create' %}" style="color: rgb(33,152,253);"><i class="fas fa-id-badge"></i>  Recruiter Profile<br></a>
+                            <a class="dropdown-item" role="presentation" href="{% url 'friend-post-create' %}" style="color: rgb(33,152,253);"><i class="fa fa-star-half"></i> ⁪ Become a Friend</a>
+                            <a class="dropdown-item" role="presentation" href="{% url 'post-create' %}" style="color: rgb(33,152,253);"><i class="fa fa-tags"></i>⁪  Post Buy&Sell ad</a>
+                            <!--a class="dropdown-item" role="presentation" href="{% url 'recruiter-post-create' %}" style="color: rgb(33,152,253);"><i class="fas fa-id-badge"></i>  Recruiter Profile<br></a-->
                             <a class="dropdown-item" role="presentation" href="{% url 'event-post-create' %}" style="color: rgb(33,152,253);"><i class="fa fa-fort-awesome"></i>⁪  Create Event</a>
                             <a class="dropdown-item" role="presentation" href="{% url 'blog-create' %}" style="color: rgb(33,152,253);"><i class="fas fa-book"></i>  Create a blog<br></a></div>
                     </li>

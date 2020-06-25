@@ -68,21 +68,23 @@
     {% endfor %}
 </div>
 <div class="d-flex justify-content-center">{% include 'cashtreats/blog_post_pagination.html' with queryset=queryset %}</div>
-<div class="jumbotron">
+
+<div class='container-fluid text-white' >
+
             <hr class="my-4">
-  <h2 class="display-5  center" style="text-align:center;"><i class="fas fa-tags"></i><strong>Buy&Sell Online</h2>
+  <h2 class="display-5  center" style="text-align:center;"><i class="fas fa-tags"></i><strong>Buy&Sell also Rent too</h2>
             <hr class="my-4">
-  <p class="lead text-center">Sell Your Stuff Online for Extra Money,&nbsp;with a wide range of categories - cars, housing, jobs and everything in between.</p>
+  <p class="lead text-center">Sell Your Stuff for Extra Money,&nbsp;with a wide range of categories - cars, housing, jobs and everything in between.</p>
         <p class="lead text-center">Today, you can sell your tangible or digital goods practically anywhere around the world here.</p>
-        <p class="lead text-center">You can start your own&nbsp;eCommerce website, but for ease and affordability, you can use this services.&nbsp;In many cases, listing your goods with these services is free,<br></p>
-            <p class="lead text-center">Buy&Sell is an environmentally friendly and local way to recycle things. Plus, this connections are between people who live near each other, you can always see, touch, and try an item before you buy it.</p>
+        <p class="lead text-center">You can start selling your products with your price affordability, you can use this services.&nbsp;In many cases, listing your goods with these services is free,<br></p>
+            <p class="lead text-center">Buy&Sell is an environmentally friendly and local way to exchange things. Plus, this connections are between people who live near each other, you can always see, touch, and try an item before you buy it.</p>
   <hr class="my-4">
 
 
-  <p class="lead text-center">
-    <a class="btn btn-primary btn-lg border-pretty " href="{% url 'post-home' %}" role="button">Buy&Sell anything <i class="icon ion-android-arrow-forward"></i> </a>
-  </p>
-</div>
+<p class="lead text-center">
+
+</p>
+</div></div>
 </body>
 {% include 'cashtreats/footer-sort.html' %}
 {% endblock %}
